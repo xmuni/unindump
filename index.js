@@ -7,6 +7,7 @@ const path = require("path");
 
 
 
+const OUTPUT_FOLDER = 'docs'
 
 
 
@@ -122,7 +123,7 @@ function main() {
         data: data,
         pdflinks: pdflinks,
     });
-    fs.writeFileSync(path.join(__dirname, 'public/index.html'), renderedHtml, 'utf8');
+    fs.writeFileSync(path.join(__dirname, OUTPUT_FOLDER, 'index.html'), renderedHtml, 'utf8');
     console.log('Html Render OK');
 }
 
@@ -150,7 +151,7 @@ server.use(function(req, res, next) {
 });
 
 // Make available to the client all files inside 'public'
-server.use(express.static(path.join(__dirname, 'public')));
+server.use(express.static(path.join(__dirname, OUTPUT_FOLDER)));
 server.use(express.static('D:\\Dropbox\\Archive\\Pdf books\\Topics'));
 
 

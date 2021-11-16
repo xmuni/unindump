@@ -8,6 +8,7 @@ const path = require("path");
 
 
 const OUTPUT_FOLDER = 'docs'
+const BUILD_MODE = process.argv.includes('-b') || process.argv.includes('-build')
 
 
 
@@ -117,14 +118,21 @@ function main() {
     }
 
     fs.writeFileSync(path.join(__dirname, 'output.json'), JSON.stringify(data,null,4));
+
+    console.log('Build mode:',BUILD_MODE);
+    // console.log('Args:',process.argv);
     
     const template = fs.readFileSync(path.join(__dirname, 'input/template.html'), 'utf8');
     const renderedHtml = renderHtml(template, {
         data: data,
         pdflinks: pdflinks,
+        repo_path: BUILD_MODE ? 'unindump/' : '' // Add 'unindump/' to the pdf paths so the links on github pages work.
     });
     fs.writeFileSync(path.join(__dirname, OUTPUT_FOLDER, 'index.html'), renderedHtml, 'utf8');
     console.log('Html Render OK');
+
+    if(!BUILD_MODE)
+        loadExpress();
 }
 
 
@@ -135,44 +143,47 @@ main();
 
 
 /* Set up Express.js server */
+function loadExpress() {
 
-const server = express();
-const port = process.env.PORT || "8000";
-
-// Enable CORS for react frontend
-const cors = require('cors');
-server.use(cors({ credentials: true })) // THIS FIXES EVERYTHING https://stackoverflow.com/questions/50968152/cross-origin-request-blocked-with-react-and-express
-
-server.use(function(req, res, next) {
-    res.header("Access-Control-Allow-Origin", "*");
-    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept, Authorization");
-    res.header('Access-Control-Allow-Methods', 'PUT, POST, GET, DELETE, OPTIONS');
-    next();
-});
-
-// Make available to the client all files inside 'public'
-server.use(express.static(path.join(__dirname, OUTPUT_FOLDER)));
-server.use(express.static('D:\\Dropbox\\Archive\\Pdf books\\Topics'));
-
-
-/*
-server.get("/", (req, res) => {
-    // const html = fs.readFileSync(`${__dirname}/ui.html`, 'utf8');
-    const html = fs.readFileSync(`${__dirname}/public/index.html`);
-    res.status(200).send("Default dummy html");
-});
-*/
-
-/*
-server.get("/rendered", (req, res) => {
-    // const html = fs.readFileSync(`${__dirname}/ui.html`, 'utf8');
-    main();
-    const html = fs.readFileSync(`${__dirname}/public/index.html`);
-    res.status(200).send(html);
-});
-*/
-
-server.listen(port, () => {
-    console.log(`Listening to requests on http://localhost:${port} ...`);
-});
-
+    const server = express();
+    const port = process.env.PORT || "8000";
+    
+    // Enable CORS for react frontend
+    const cors = require('cors');
+    server.use(cors({ credentials: true })) // THIS FIXES EVERYTHING https://stackoverflow.com/questions/50968152/cross-origin-request-blocked-with-react-and-express
+    
+    server.use(function(req, res, next) {
+        res.header("Access-Control-Allow-Origin", "*");
+        res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept, Authorization");
+        res.header('Access-Control-Allow-Methods', 'PUT, POST, GET, DELETE, OPTIONS');
+        next();
+    });
+    
+    // Make available to the client all files inside 'public'
+    server.use(express.static(path.join(__dirname, OUTPUT_FOLDER)));
+    server.use(express.static('D:\\Dropbox\\Archive\\Pdf books\\Topics'));
+    
+    
+    /*
+    server.get("/", (req, res) => {
+        // const html = fs.readFileSync(`${__dirname}/ui.html`, 'utf8');
+        const html = fs.readFileSync(`${__dirname}/public/index.html`);
+        res.status(200).send("Default dummy html");
+    });
+    */
+    
+    /*
+    server.get("/rendered", (req, res) => {
+        // const html = fs.readFileSync(`${__dirname}/ui.html`, 'utf8');
+        main();
+        const html = fs.readFileSync(`${__dirname}/public/index.html`);
+        res.status(200).send(html);
+    });
+    */
+    
+    server.listen(port, () => {
+        console.log(`Listening to requests on http://localhost:${port} ...`);
+    });
+    
+    
+}

@@ -22,7 +22,7 @@
                 <ul class="top-links">
                     {% set books = ['OS elementaryalgebra','OS prealgebra','OS precalculus','OS calculus v1','OS calculus v2','OS calculus v3'] %}
                     {% for book in books %}
-                        <li><a href="/{{ book }}.pdf" class="pdf-link" target="_blank">{{ book }}</a></li>
+                        <li><a href="/{{ repo_path }}{{ book }}.pdf" class="pdf-link" target="_blank">{{ book }}</a></li>
                     {% endfor %}
                 </ul>
                 {% endif %}
@@ -60,7 +60,7 @@
                                     <a
                                         class="pdf-link"
                                         target="_blank"
-                                        href="/{{ pdflinks[key].pdf }}.pdf#page={{ pdflinks[key].page }}">
+                                        href="/{{ repo_path }}{{ pdflinks[key].pdf }}.pdf#page={{ pdflinks[key].page }}">
                                         read
                                     </a>
                                 {% endif %}

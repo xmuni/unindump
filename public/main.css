@@ -1,0 +1,251 @@
+    
+
+body {
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    letter-spacing: 0.01rem;
+}
+
+main {
+    max-width: 90vw;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    margin-top: 5vh;
+    position: relative;
+    z-index: 10;
+}
+
+h2 {
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1rem;
+    text-align: center;
+    /* background-color: #eee; */
+    min-height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    cursor: pointer;
+}
+
+.row {
+    /* background-color: #eee; */
+    padding: 1rem;
+    box-shadow: 0 0 3rem rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.row ul.top-links li {
+    margin: .3rem;
+}
+
+.topics {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding: .5rem;
+    overflow-x: scroll;
+}
+
+.box {
+    /* display: grid; */
+    /* grid-template-rows: auto auto; */
+    background-color: white;
+    padding: .3rem;
+    margin-bottom: auto;
+    min-width: 18rem;
+    border-radius: .5rem;
+    /* box-shadow: 0 0rem 5px rgba(0, 0, 0, 0.1); */
+    border: 2px solid rgba(0,0,0,0.05);
+    box-sizing: content-box;
+}
+
+.box .points {
+    text-align: center;
+}
+
+.box .req {
+    margin: 0 1rem;
+    margin-bottom: 1rem;
+    font-size: .8rem;
+    height: 5rem;
+    overflow-y: auto;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: .5rem;
+}
+
+.box ol {
+    font-size: .8rem;
+}
+
+.box ol li {
+    margin: .3rem;
+    cursor: default;
+}
+
+
+
+.tooltip {
+    position: relative;
+    cursor: default;
+}
+
+.tooltip:before {
+    content: attr(title);
+    position: absolute;
+
+    /* vertically center */
+    left: 50%;
+    transform: translateX(-50%);
+    
+    /* move to right */
+    /* left: 100%; */
+    /* margin-left: 15px; */ /* and add a small left margin */
+    top: 100%;
+    margin-top: .5rem;
+    
+    /* basic styles */
+    width: 30rem;
+    padding: 10px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    z-index: 100;
+    font-weight: normal;
+    font-size: .8rem;
+    white-space: pre;
+    text-align: left;
+
+    display: none; /* hide by default */
+}
+
+.tooltip:hover:before {
+    display: block;
+}
+
+li.disabled {
+    opacity: .5;
+    text-decoration: line-through;
+}
+
+
+
+
+.hoverbox {
+    font-weight: normal;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-top: 1rem;
+    /* border: 1px solid black; */
+    padding: .5rem;
+    display: none;
+    /* min-width: 20rem; */
+    border-radius: .2rem;
+    color: #eee;
+    /* background-color: rgba(0, 0, 0, 0.9); */
+    background-color: white;
+    padding: 2px;
+    gap: 2px;
+    opacity: 0;
+    transition: 200ms opacity;
+    z-index: 100;
+    background-color: #333;
+    font-size: .8rem;
+    text-align: left;
+    /* max-width: 30vw; */
+    width: 40vw;
+    padding: 1rem;
+    z-index: 100;
+    line-height: 1.25rem;
+    letter-spacing: 0.02rem;
+    /* max-height: 80vh; */
+}
+
+.hoverbox h4 {
+    margin: 0;
+    color: white;
+}
+
+.hoverbox.show,
+h3:hover .hoverbox {
+    display: flex;
+    flex-direction: column;
+    opacity: 1;
+    transition: 200ms opacity;
+    z-index: inherit;
+    /* grid-template-columns: 1fr 1fr; */
+}
+
+a.pdf-link {
+    text-decoration: none;
+    color: white;
+    /* background-color: rgba(0, 0, 0, 0.1); */
+    padding: .1rem .3rem;
+    border-radius: 3px;
+    background-color: rgb(46, 137, 255);
+    transition: 100ms;
+    font-size: .8rem;
+}
+a.pdf-link:hover {
+    background-color: rgb(87, 160, 255);
+    transition: 100ms;
+}
+
+
+
+
+.red {
+    color: darkred;
+}
+
+.green {
+    color: rgb(15, 128, 0);
+}
+
+.bg-red {
+    background-color: rgba(240, 128, 128, 0.2);
+}
+
+.bg-green {
+    background-color: rgba(95, 190, 71, 0.2);
+}
+
+.bg-blue {
+    background-color: rgba(101, 142, 196, 0.2);
+}
+
+.bg-purple {
+    background-color: rgba(132, 97, 177, 0.2);
+}
+
+.bg-orange {
+    background-color: rgba(241, 176, 102, 0.3);
+}
+
+.bg-yellow {
+    background-color: rgba(240, 213, 95, 0.2);
+}
+
+.bg-cyan {
+    background-color: rgba(54, 146, 189, 0.3);
+}
+
+.bg-gray {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.box li {
+    text-transform: lowercase;
+}
+
+.regularcase li {
+    text-transform: lowercase;
+}

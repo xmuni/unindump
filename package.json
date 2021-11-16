@@ -1,0 +1,21 @@
+{
+  "name": "unindump",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "open": "start http://localhost:8000 && node ./index.js",
+    "build": "./build.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.3",
+    "xlsx": "^0.17.3"
+  }
+}

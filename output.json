@@ -1,0 +1,1585 @@
+[
+    {
+        "year": 1,
+        "title": "Calcolo e algebra lineare",
+        "req": "proprietà algebriche dei numeri reali; risoluzione delle equazioni e delle disequazioni di 1 e 2 grado; proprietà trigonometriche elementari delle funzioni circolari",
+        "points": 9,
+        "filename": "calcolo",
+        "style": "bg-orange",
+        "id": 0,
+        "data": {
+            "info": [
+                [
+                    "Descrizione dell'insegnamento",
+                    "Il corso di Calcolo e Algebra Lineare è un insegnamento fondamentale nel percorso formativo di ogni corso di laurea afferente alla Facoltà di Ingegneria, poiché fornisce gli strumenti di base del calcolo utili sia comprendere le altre discipline, quali le discipline di base come ad esempio quelle relative agli insegnamenti di Fisica, che qualunque altro insegnamento di carattere scientifico o prettamente tecnologico, quanto a dotare lo studente di una metodologia logico-deduttiva determinante per un corretto approccio nella risoluzione di problemi di più ampia natura."
+                ],
+                [
+                    "Prerequisiti",
+                    "Considerata la natura autonoma di un corso di Analisi Matematica e Algebra Lineare di primo livello, ci si aspetta dallo studente la sola padronanza delle proprietà algebriche dei numeri reali; la conoscenza delle tecniche per la risoluzione delle equazioni e delle disequazioni di primo e secondo grado e le proprietà trigonometriche elementari delle funzioni circolari."
+                ],
+                [
+                    "Scopi",
+                    "Il corso di Calcolo e Algebra Lineare per la Facoltà di Ingegneria ha come obiettivo principale, quello di condurre lo studente ad acquisire, partendo dalle proprietà elementari dei numeri reali, la necessaria competenza nel calcolo differenziale ed integrale per funzioni reali di una variabile reale e oltre all’utilizzo dei concetti elementari dell’algebra lineare, quali il calcolo matriciale per il corretto atteggiamento a svolgere analisi qualitative nello studio delle funzioni reali attraverso la loro rappresentazione grafica."
+                ],
+                [
+                    "Contenuti",
+                    "Sistema dei numeri reali e relativi sottoinsiemi: numeri naturali, numeri interi e numeri razionali. Funzioni reali di una variabile reale: limiti e continuità. Introduzione al concetto di spazio vettoriale Concetto di matrice Funzioni reali di una variabile reale: derivabilità e differenziabilità Funzioni reali di una variabile reale: integrabilità"
+                ],
+                [
+                    "Testi",
+                    "E-book Elements of Calculus (in Inglese)Uninettuno University Press; C. Cesarano, Lezioni di Analisi Matematica Volume 1, Esculapio Editore; e-book Elementi di Algebra Lineare Uninettuno University Press; A. Ghizzetti, F. Rosati, Analisi Matematica Vol. I, Masson; N. Fusco, P. Marcellini, C. Sbordone, Analisi Matematica I, Liguori Editore; M. Amar, A.M. Bersani, Esercizi di Analisi Matematica, Progetto Leonardo (Esculapio editore); Flamini-Verra, Matrici e Vettori, Carocci Editore. Maggiori dettagli e commenti si troano nella sezione bibliografia"
+                ],
+                [
+                    "Esercitazioni",
+                    "Gli esercizi proposti copiano i macro argomenti su cui è strutturato il presente corso. Tuttavia sono stati inseriti alcuni approfondimenti per meglio comprendere alcuni argomenti poco intuitivi. In particolare, considerato l’ampia classe di conoscenze e di relative tecniche, contenuta nel sistematico studio qualitativo di una funzione reale di una variabile reale, viene presentato un metodo dettagliato per come seguire correttamente detto studio. Il metodo di interazione didattica più comune per l'interazione con il docente è il forum dove troverete anche ulteriori informazioni specifiche sul corso."
+                ],
+                [
+                    "Docente d'Area",
+                    "Domenico Finco"
+                ],
+                [
+                    "Docenti video",
+                    "Prof. - Università di Bologna (Bologna - Italy)Prof. - Politecnico di Torino (Torino - Italy)"
+                ]
+            ],
+            "lessons": [
+                "numeri naturali",
+                "calcolo combinatorio",
+                "dai numeri naturali ai numeri interi",
+                "dai numeri interi ai numeri razionali",
+                "la rappresentazione decimale",
+                "il campo dei numeri reali",
+                "disuguaglianze",
+                "funzioni e successioni reali",
+                "limite di successioni (prima parte)",
+                "limite di successioni (seconda parte)",
+                "limite di funzioni",
+                "estensione della nozione di limite",
+                "teoremi sui limiti (prima parte)",
+                "teoremi sui limiti (seconda parte)",
+                "teoremi sui limiti (terza parte)",
+                "proprietà delle funzioni continue su un intervallo",
+                "introduzione al concetto di spazio vettoriale",
+                "spazi vettoriali, dipendenza ed indipendenza lineare",
+                "generatori, basi e dimensione di uno spazio vettoriale",
+                "matrici (i parte)",
+                "matrici (ii parte)",
+                "matrici (iii parte)",
+                "il concetto di applicazione lineare [trasformazione lineare]",
+                "applicazioni [trasformazioni] lineari e matrici",
+                "sistemi lineari (i parte)",
+                "sistemi lineari (ii parte) - teorema di rouché - capelli e incognite libere",
+                "sistemi lineari (iii parte)",
+                "il determinante di una matrice quadrata",
+                "la regola di cramer",
+                "i numeri complessi (i parte)",
+                "i numeri complessi (ii parte)",
+                "autovalori ed autovettori di un endomorfismo",
+                "la diagonalizzazione delle matrici quadrate",
+                "il concetto di derivata",
+                "teoremi sulle derivate",
+                "derivazione delle funzioni composte",
+                "massimi e minimi",
+                "il teorema del valor medio",
+                "i teoremi di l'hospital",
+                "concavità e convessità",
+                "grafici di funzioni (prima parte)",
+                "grafici di funzioni (seconda parte)",
+                "definizione di integrale",
+                "il teorema fondamentale del calcolo integrale",
+                "proprietà dell'integrale",
+                "integrazione per parti e per sostituzione",
+                "estensione della nozione di integrale",
+                "applicazioni del calcolo integrale ( prima parte)",
+                "applicazioni del calcolo integrale ( seconda parte)"
+            ]
+        }
+    },
+    {
+        "year": 1,
+        "title": "Metodi Matematici per l'ingegneria",
+        "req": "primo corso di Analisi Matematica",
+        "points": 9,
+        "filename": "metodi",
+        "style": "bg-purple",
+        "id": 1,
+        "data": {
+            "info": [
+                [
+                    "Descrizione dell'insegnamento",
+                    "Il corso di Metodi matematici per l’ingegneria  è un naturale prolungamento degli argomenti contenuti nell’insegnamento di Calcolo e algebra lineare. Le caratteristiche di questo corso sono essenzialmente rivolte allo studio delle funzioni reali di più variabili reali e dunque forniscono allo studente i giusti strumenti per comprendere oltre ai problemi più complessi delle discipline fisiche e tecnologiche, anche argomenti di carattere economico, come il calcolo delle probabilità, che statistico."
+                ],
+                [
+                    "Prerequisiti",
+                    "La conoscenza degli argomenti del primo corso di Analisi Matematica è per ovvii motivi fondamentale."
+                ],
+                [
+                    "Scopi",
+                    "Il corso di Metodi matematici per l’ingegneria sviluppa principalmente i concetti appresi per lo studio delle funzioni reali di una variabile reale in un ambito di molte variabili, consentendo di raggiungere i medesimi risultati per le funzioni reali di più variabili reali. Inoltre, introduce le Equazioni Differenziali di tipo ordinario che sono alla base della comprensione di ogni fenomeno fisico, naturale ed economico."
+                ],
+                [
+                    "Contenuti",
+                    "Il corso di Metodi matematici per l’ingegneria   presenta il calcolo differenziale in più variabili, introducendo i concetti di derivata parziale, gradiente e differenziale totale. Il successivo macro argomento riguarda la teoria delle equazioni differenziali ordinarie, in particolare lo studio delle equazioni lineari e dei sistemi del primo ordine. Infine, generalizzando quanto svolto nel primo corso Analisi Matematica e quindi per terminare la parte relativa alle funzioni reali, viene svolta la teoria dell’integrazione in più variabili e sono presentate le tecniche risolutive degli integrali doppi e tripli."
+                ],
+                [
+                    "Testi",
+                    "“Calculus II – Part I”, Uninettuno University Press - McGraw-Hill, 2013 (acquistabile tramite la Uninettuno University). \n“Calculus II – Part II”, Uninettuno University Press - McGraw-Hill, 2013 (acquistabile tramite la Uninettuno University).\n\"Lezioni di Analisi Matematica, Vol. I, Esculapio Editore, 2012 - Clemente Cesarano"
+                ],
+                [
+                    "Esercitazioni",
+                    "Gli esercizi sono incentrati su ognuno dei macro argomenti del corso, ognuno dei quali di valenza fondamentale. Poiché gli argomenti presenti, oltre a ricoprire una loro autonoma rilevanza, sono fondamentali per poter svolgere le più complesse operazioni in qualsiasi disciplina necessitante del formalismo matematico, sono numerosi e anche di natura applicativa."
+                ],
+                [
+                    "Docente d'Area",
+                    "Clemente Cesarano"
+                ],
+                [
+                    "Docenti video",
+                    "Prof. - Università di Bologna (Bologna - Italy)Prof. - Università di Trieste (Trieste - Italy)"
+                ]
+            ],
+            "lessons": [
+                "serie",
+                "criteri di convergenza",
+                "polinomi di taylor (prima parte)",
+                "polinomi di taylor (seconda parte)",
+                "serie di taylor (prima parte)",
+                "serie di taylor (seconda parte)",
+                "approssimazione delle funzioni elementari",
+                "struttura di r^n",
+                "continuità e differenziabilità di funzioni di più variabili",
+                "conseguenze fondamentali della continuità e della differenziazione delle funzioni di più variabili",
+                "calcolo differenziale per funzioni di più variabili (i parte)",
+                "calcolo differenziale per funzioni di più variabili (ii parte)",
+                "calcolo differenziale per funzioni di più variabili (iii parte)",
+                "calcolo differenziale per funzioni di più variabili (iv parte)",
+                "calcolo differenziale per funzioni di più variabili (v parte)",
+                "equazioni differenziali ordinarie",
+                "equazioni differenziali ordinarie. altri tipi integrabili per quadratura",
+                "sistemi di equazioni ed equazioni differenziali lineari",
+                "sistemi di equazioni ed equazioni differenziali lineari a coefficienti costanti (i parte)",
+                "sistemi di equazioni ed equazioni differenziali lineari a coefficienti costanti (ii parte)",
+                "integrale (di riemann) per funzioni di due o tre variabili su rettangoli",
+                "formule di riduzione per integrali doppi e tripli",
+                "cambiamento di variabili per integrali doppi e tripli"
+            ]
+        }
+    },
+    {
+        "year": 1,
+        "title": "Algoritmi e programmazione avanzata",
+        "req": "Conoscenza di base del linguaggio C",
+        "points": 9,
+        "filename": "algoritmi",
+        "style": "bg-yellow",
+        "id": 2,
+        "data": {
+            "info": [
+                [
+                    "Descrizione dell'insegnamento",
+                    "Il corso di Algoritmi e programmazione avanzata ha l’obiettivo di introdurre le principali strutture\n\n dati ed i principali algoritmi utilizzando come supporto il linguaggio C. I corso tratta della\n\n programmazione C avanzata (allocazione dinamica memoria, puntatori, etc.), delle strutture dati\n\n (liste, pile, code, tabelle hash, etc), dei principali algoritmi di ordinamento, degli algoritmi su alberi e sui grafi."
+                ],
+                [
+                    "Prerequisiti",
+                    "Conoscenza di base del linguaggio C."
+                ],
+                [
+                    "Scopi",
+                    "Saper utilizzare le principali strutture dati (liste, pile, code, etc.) sia da un punto di vista concettuale che utilizzando il linguaggio C. Conoscere i principali algoritmi che usano tali strutture (ordinamento, visita, etc.). Saper valutare la complessità computazionale degli algoritmi."
+                ],
+                [
+                    "Contenuti",
+                    "Programmazione C avanzata (allocazione dinamica memoria, puntatori, etc.)\nStrutture dati (liste, pile, code, tabelle hash, etc.)\nAlgoritmi (Ordinamento, algoritmi su albveri e su grafi, etc.)\nComplessità Computazionale."
+                ],
+                [
+                    "Testi",
+                    "S. Ceri, D. Mandrioli e L. Sbattella, Informatica: Programmazione (Capp. 10 e 11) McGraw-Hill, 2006\nT.H.Cohen, C.E. Leiserson, R.L. Rivest, C. Stein, Introduzione agli algoritmi e strutture dati, 3° ed, McGraw-Hill, 2010."
+                ],
+                [
+                    "Esercitazioni",
+                    "Le esercitazioni presentate durante il corso coprono l’intero programma."
+                ],
+                [
+                    "Docente d'Area",
+                    "Fernando Ferri"
+                ],
+                [
+                    "Docenti video",
+                    "Prof. - Politecnico di Torino (Torino - Italy)"
+                ]
+            ],
+            "lessons": [
+                "c avanzato",
+                "allocazione dinamica della memoria",
+                "ricorsione e programmi ricorsivi",
+                "programmazione modulare",
+                "liste lineari i",
+                "liste lineari ii",
+                "tipo di dato astratti i - pile e code",
+                "tipo di dato astratti ii - code a priorità e alberi",
+                "algoritmi - introduzione e definizioni",
+                "analisi di complessità",
+                "analisi di programmi ricorsivi",
+                "algoritmi di ordinamento i",
+                "algoritmi di ordinamento ii",
+                "algoritmi di ordinamento iii",
+                "insiemi dinamici e dizionari",
+                "alberi binari di ricerca",
+                "tabelle hash",
+                "paradigmi algoritmici",
+                "paradigmi algoritmici ii",
+                "paradigmi algoritmici iii",
+                "i grafi - prima parte",
+                "i grafi - seconda parte",
+                "visite di grafi",
+                "alberi di copertura minimi",
+                "percorsi minimi in un grafo",
+                "teoria della complessità",
+                "np completezza e algoritmi approssimati"
+            ]
+        }
+    },
+    {
+        "year": 1,
+        "title": "Fisica (nuova versione)",
+        "req": "Analisi I e parte di Analisi II; (1) derivate (2) studio di funzione (3) conoscere il concetto di integrale come limite di una somma e saper calcolare integrali in una variabile o riconducibili a integrali in una variabile (4) vettore e sapere effettuare somme vettoriali (5) operatori di gradiente, divergenza e rotore. Testo utile: C. Cesarano, \"Lezioni di Analisi Matematica Volume 1\" https://books.google.it/books?id=fDbgDwAAQBAJ&printsec=frontcover#v=onepage&q&f=false",
+        "points": 9,
+        "filename": "fisica",
+        "style": "bg-red",
+        "id": 3,
+        "data": {
+            "info": [
+                [
+                    "Descrizione dell'insegnamento",
+                    "-La prima parte del corso di Fisica si riferisce ai fondamenti della meccanica dei corpi e dei fluidi e ai concetti base della termodinamica. I principi e le leggi fisiche che vengono studiati durante questa prima parte sono alla base di qualunque applicazione ingegneristica e di tutta la tecnologia contemporanea. Il corso è posto nella prima parte del percorso formativo dello studente verso il conseguimento della qualifica di ingegnere proprio per il suo carattere fondamentale e di base. Il linguaggio che si usa e che si impara è formale e si avvale degli strumenti della matematica, ma ciò che viene descritto è il mondo reale che ci circonda e di cui si tendono a mettere in evidenza i nessi causali che collegano fra loro i diversi fenomeni osservati. La seconda parte del corso tratta la fenomenologia dell’elettromagnetismo, la sua teoria classica e alcune sue applicazioni. Come applicazione peculiare si considera anche la propagazione della luce, sia sotto forma di ottica geometrica che di ottica fisica. L’elettromagnetismo è alla base della stragrande maggioranza dei fenomeni fisici della vita quotidiana, eccettuata l’interazione gravitazionale. La consistenza dei corpi, non meno delle loro proprietà elettriche in senso stretto, i fenomeni chimici (non considerando la meccanica quantistica), il colore degli oggetti e moltissime altre proprietà sono in realtà di natura elettromagnetica. Tutto ciò mette in evidenza l’importanza della materia trattata nel corso."
+                ],
+                [
+                    "Prerequisiti",
+                    "Lo studente deve possedere i contenuti tipici del corso di Analisi I e parte di Analisi II; in particolare deve: * conoscere e saper utilizzare le derivate * essere in grado di effettuare uno studio di funzione * conoscere il concetto di integrale come limite di una somma e saper calcolare integrali in una variabile o riconducibili a integrali in una variabile * conoscere il concetto di vettore e sapere effettuare somme vettoriali * conoscere gli operatori di gradiente, divergenza e rotore. Un testo di riferimento per i concetti di base di calcolo differenziale, propedeutici allo studio del corso di fisica, è: C. Cesarano, \"Lezioni di Analisi Matematica Volume 1\", Esculapio Editore"
+                ],
+                [
+                    "Scopi",
+                    "Per quanto concerne la prima parte, obiettivo del corso è quello di fornire allo studente una comprensione non superficiale né solo qualitativa dei fenomeni connessi col moto dei corpi e dei fluidi, sia negli aspetti cinematici che dinamici, e dei problemi legati alla trasmissione del calore e in generale dell’energia fra sistemi formati da un grandissimo numero di componenti (termodinamica). Alla fine del corso lo studente saprà riconoscere e comprendere le proprietà dei moti semplici; avrà acquisito il concetto di forza, di quantità di moto, di momento angolare e di energia; possiederà il concetto di inerzia e di momento di inerzia. Sarà in grado di capire gli aspetti essenziali dell’interazione tra corpi diversi, sia in contatto diretto che con la mediazione del campo gravitazionale. A conclusione della prima parte del corso, lo studente avrà acquisito la metodologia essenziale per essere in grado di risolvere semplici problemi relativi a quanto sopra e di impostare la soluzione di problemi più complessi. D’altro canto, obiettivo della seconda parte del corso è quello di fornire allo studente una comprensione non superficiale né solo qualitativa dei fenomeni connessi con le proprietà elettriche e magnetiche della materia e con la propagazione di onde elettromagnetiche. Alla fine del corso lo studente saprà interpretare correttamente i fenomeni elettromagnetici che accompagnano e costituiscono moltissime applicazioni della tecnologia contemporanea, dai circuiti elettrici ai motori, alle antenne per la trasmissione dei segnali, e ne conoscerà i principi essenziali. Altrettanto varrà per l’ottica e i suoi principi essenziali. A conclusione del corso lo studente avrà acquisito la metodologia per essere in grado di risolvere semplici problemi relativi a quanto sopra e di impostare la soluzione di problemi più complessi."
+                ],
+                [
+                    "Contenuti",
+                    "Le misure o grandezze fisiche o sistemi di coordinate o unità di misura o misure ed incertezze * Meccanica o il moto di un oggetto puntiforme in una o più dimensioni; o velocità ed accelerazione; o quantità di moto e velocità o urti e centro di massa; o la forza; o la conservazione della quantità di moto e le leggi di Newton; o energia cinetica ed energia elastica; o la forza di gravità o forze dissipative; o l’oscillatore armonico; o risonanza; o quantità di moto angolare e velocità angolare; o inerzia angolare; o il momento delle forze; o la conservazione della quantità di moto angolare; o energia di rotazione; o equilibrio e stabilità. * Meccanica dei fluidi: o fluidi in quiete, la pressione; o principio di Pascal; o principio di Archimede; o moto di fluidi ideali, la portata; o l’equazione di Bernoulli; o fluidi viscosi, l’attrito interno. * Termodinamica: o calore e temperatura; o il primo principio; o cicli termodinamici, il ciclo di Carnot; o l’entropia e il secondo principio. * Elettrostatica: o campo elettrico di una carica puntiforme e di una distribuzione di cariche; o potenziale elettrostatico; o legge di Gauss e sue applicazioni; o proprietà dei dielettrici; o capacità e condensatori. * La corrente elettrica: o La legge di Ohm o Effetto Joule * Magnetostatica: o proprietà del campo magnetico statico; o forza di Lorentz; o campo magnetico generato da una corrente; o forze tra correnti; o la relazione di Ampère; o campo della spira e dipoli magnetici; o proprietà magnetiche della materia. * Campi elettromagnetici dipendenti dal tempo: o la legge di Faraday; o induttanza; o le equazioni di Maxwell; o le onde elettromagnetiche; o proprietà generali della propagazione per onde; o generazione di onde elettromagnetiche. * L’ottica: o la legge di Snell e l’ottica geometrica; o fenomeni interferenziali; o la diffrazione della luce; o polarizzazione della luce."
+                ],
+                [
+                    "Testi",
+                    "Uno dei seguenti testi a scelta:\nLIBRI DI TESTO acquistabili on-line cliccando sui link seguenti:\n\n \n  Physics I, Livio Conti, Uninettuno University Press & McGraw-Hill, ISBN 9781121766716\n \n  Physics II, Livio Conti, Uninettuno University Press & McGraw-Hill, ISBN 9781121766709\n \n  Fondamenti di Fisica, Halliday D., Resnick R., Walker J., Casa Editrice Ambrosiana - Zanichelli, - Meccanica, Onde, Termodinamica, - Elettromagnetismo, Ottica\n \n  Fisica Generale, Rosati S., Casa Editrice Ambrosiana - Zanichelli"
+                ],
+                [
+                    "Esercitazioni",
+                    "Gli esercizi consisteranno in applicazioni semplificate, e per quanto possibile, riconducibili a situazioni reali dei concetti e delle leggi studiati nel corso. L’accento sarà posto sugli aspetti metodologici e lo studente dovrà cercare di apprendere, più che un insieme di “ricette” per esercizi stereotipati, l’approccio al problema e gli elementi di similitudine tra problemi apparentemente diversi."
+                ],
+                [
+                    "Docente d'Area",
+                    "Giovanni Maria Piacentino"
+                ],
+                [
+                    "Docenti video",
+                    "Prof. - INFN, Università di Tor Vergata Roma, RIKEN (Giappone)"
+                ]
+            ],
+            "lessons": [
+                "introduzione",
+                "elementi di calcolo vettoriale e differenziale",
+                "misura di grandezze fisiche",
+                "statistica e cinematica",
+                "meccanica",
+                "lavoro ed energia",
+                "energia potenziale",
+                "potenziale e campi",
+                "forze apparenti e moto circolare",
+                "momento angolare e seconda equazione cardinale",
+                "la legge di gravitazione universale - parte i",
+                "la legge di gravitazione universale - parte ii",
+                "corpi rigidi parte i",
+                "corpi rigidi parte ii",
+                "corpi rigidi parte iii",
+                "idrostatica",
+                "dinamica  dei fluidi",
+                "oscillatore armonico",
+                "onde e oscillazioni",
+                "termodinamica  - parte i",
+                "termodinamica  - parte ii",
+                "termodinamica  - parte iii",
+                "termodinamica  - parte iv",
+                "termodinamica  - parte v",
+                "elettrostatica - parte i",
+                "elettrostatica - parte ii",
+                "elettrostatica - parte iii",
+                "elettrostatica - parte iv",
+                "elettrostatica - parte v",
+                "corrente elettrica",
+                "circuiti elettrici e loro misura",
+                "magnetostatica",
+                "magnetostatica - parte ii",
+                "magnetostatica - parte iii",
+                "magnetostatica - parte iv",
+                "campi magnetici lentamente variabili nel tempo",
+                "circuiti in corrente alternata",
+                "circuiti in corrente alternata - parte ii",
+                "campi magnetici ed elettrici variabili nel tempo",
+                "le equazioni di maxwell",
+                "luce ed onde elettromagnetiche",
+                "luce visibile ed infrarossa",
+                "radiazione elettromagnetica ad alta frequenza",
+                "interazione, radiazione, materia",
+                "ottica",
+                "ottica geometrica parte i",
+                "ottica geometrica parte ii",
+                "strumenti ottici",
+                "interferenza",
+                "diffrazione"
+            ]
+        }
+    },
+    {
+        "year": 1,
+        "title": "Chimica e scienza dei materiali",
+        "req": "conoscenze di base sulla chimica inorganica ed organica",
+        "points": 9,
+        "filename": "chimica",
+        "style": "bg-green regularcase",
+        "id": 4,
+        "data": {
+            "info": [
+                [
+                    "Descrizione dell'insegnamento",
+                    "Il corso di Chimica e Scienza dei Materiali s’inserisce nell’ambito dell’Ingegneria come un esame fondamentale per la comprensione della struttura della materia a livello microscopico per poterne prevedere i comportamenti a livello macroscopico. Il corso si propone pertanto di fornire allo studente le basi necessarie per tale comprensione e per l’interpretazione dei fenomeni chimici, quali eventi che trasformano la materia da un lato per renderla più fruibile alle applicazioni antropiche, ma che per altro dato possono danneggiarla compromettendone le proprietà. Saranno anche fornite allo studente la conoscenza della chimica verde e dei materiali che dal suo imporsi derivano con ricadute su tecnologie innovative e scenari più sostenibili della nostra società\n\n Il corso fornisce allo studente strumenti strumenti razionali ed omogenei per la scelta e l'impiego consapevole dei materiali in rapporto all’ambiente e all’economia indotta dalla green chemistry."
+                ],
+                [
+                    "Prerequisiti",
+                    "Per seguire con profitto il corso lo studente deve possedere delle conoscenze di base sulla chimica inorganica ed organica"
+                ],
+                [
+                    "Scopi",
+                    "Al termine del corso lo studente avrà acquisito nozioni sulla costituzione della materia a livello microscopico e sull’origine molecolare di fenomeni fisici come passaggi di stato, conduzione elettrica e sulla natura di materiali polimerici in rapporto all’ambiente e alle attività antropiche di utilizzo e produzione."
+                ],
+                [
+                    "Contenuti",
+                    "La tavola periodica (lezione 1)\n\n La storia della chimica e la qualità della vita (lezione 2)\n\n Dal mondo macro al micro (lezione 3)\n\n Leggi Ponderali della Chimica (lezione 4)\n\n I legami e le reazioni chimiche (lezione 5, 6, 7)\n\n La molecola dell’acqua (lezione 8)\n\n I metodi analitici (lezione 9, 10, 11)\n\n Polimeri e materie plastiche (Lezione 12, 13, 14)\n\n Serendipity (lezione 15)\n\n Green Chemistry (lezione 16, 17)\n\n Combustibili (lezione 18)\n\n Elettrochimica (lezione 18)\n\n Processi naturali, degrado e invecchiamento (lezione 19, 20)\n\n Produrre oggi e domani (lezione 21)\n\n Carbonio (lezione 22)"
+                ],
+                [
+                    "Testi",
+                    "“Fondamenti di chimica generale e organica”, J. McMurry, D. S. Ballantine, C. A. Hoeger, V.E. Peterson, Pearson 2019\n\n “Scienza e tecnologia dei materiali” W.F. Smith, Ed McGraw-Hill Milano\n\n “Scienza e Ingegneria dei materiali: una introduzione” W.D. Callister, Ed. EdiSES, Napoli"
+                ],
+                [
+                    "Esercitazioni",
+                    "Per ogni videolezione saranno proposte domande di autovalutazione dell’apprendimento sia a risposta multipla che aperta. Gli esercizi associati a ciascuna videolezione saranno valutati tenendo conto dell’esattezza delle risposte date e, per quanto riguarda le domande aperta, della completezza con cui l’argomento proposto è trattato."
+                ],
+                [
+                    "Docente d'Area",
+                    "Luigi Campanella"
+                ],
+                [
+                    "Docenti video",
+                    "Prof. - Sapienza - Università di Roma (Roma - Italia)"
+                ]
+            ],
+            "lessons": [
+                "chimica",
+                "la chimica e la storia dell’uomo",
+                "molecole e atomi",
+                "le leggi della chimica",
+                "le reazioni",
+                "le reazioni chimiche (i parte)",
+                "le reazioni chimiche (ii parte)",
+                "h2o",
+                "metodi strumentali di analisi chimica",
+                "metodi analitici strumentali",
+                "metodi spettrali",
+                "materie plastiche - prima parte",
+                "materie plastiche - seconda parte",
+                "materie plastiche - terza parte",
+                "serendipity cultura e curiosità chimiche",
+                "la chimica sostenibile",
+                "la chimica verde",
+                "chimica e traffico veicolare",
+                "processi di degrado della materia",
+                "energia chimica",
+                "produzione di energia",
+                "chimica organica"
+            ]
+        }
+    },
+    {
+        "year": 1,
+        "title": "Informatica",
+        "req": "nozioni elementari di matematica",
+        "points": 9,
+        "filename": "informatica",
+        "style": "bg-blue",
+        "id": 5,
+        "data": {
+            "info": [
+                [
+                    "Descrizione dell'insegnamento",
+                    "Il corso di informatica mira ad introdurre i concetti di base dell’informatica con particolare enfasi sulla programmazione. Tra gli argomenti del corso troviamo: l’architettura degli elaboratori, la codifica dell’informazione, il software, gli algoritmi, le reti, la sicurezza informatica e la programmazione di alto livello. Il corso introduce inoltre le nuove tecnologie del terzo millennio e inizia il percorso di apprendimento della programmazione in linguaggio C che verrà portata a compimento nel successivo insegnamento di Algoritmi e programmazione avanzata."
+                ],
+                [
+                    "Prerequisiti",
+                    "Nozioni elementari di matematica."
+                ],
+                [
+                    "Scopi",
+                    "L'obiettivo del corso è di fornire allo studente i principi fondamentali del funzionamento di un elaboratore elettronico e di introdurre tutte quelle discipline che oggi giorno si affiancano all’uso dei calcolatori. Sono presentate anche le nuove tecnologie e le applicazioni del terzo millennio. In seguito si pone come obiettivo principale quello di portare gli allievi ad un buon livello di conoscenza della programmazione. L’illustrazione delle principali istruzioni e costrutti supportati dal linguaggio di programmazione C trattato durante il corso sarà affiancata da un cospicuo numero di esempi svolti commentati dal docente e da esercizi da svolgere a casa a cura degli allievi."
+                ],
+                [
+                    "Contenuti",
+                    "Il corso analizzerà i vari aspetti della disciplina dell’informatica, con particolare attenzione alle seguenti aree d’interesse:\n\n \n  L’architettura degli elaboratori\n \n  I codici numerici\n \n  L’elaborazione, la misura e la codifica dell’informazione\n \n  L’algebra di Boole ed i circuiti logici\n \n  Il software\n \n  Le reti di calcolatori e in particolare la rete Internet\n \n  La sicurezza informatica\n \n  Le nuove tecnologie e le applicazioni del terzo millennio\n \n  Il linguaggio di programmazione C\n \n  Le variabili in C\n \n  Le espressioni\n \n  Le strutture di controllo;\n \n  Le funzioni\n \n  I vettori e le matrici;\n \n  I puntatori\n \n  I caratteri e le stringhe\n \n  I file"
+                ],
+                [
+                    "Testi",
+                    "TEORIA (consigliati, non obbligatori)\n\n Marco Mezzalama, Elio Piccolo: Capire l'informatica. Dal microprocessore al Web 2.0. CittàStudi, 2010\n D.P. Curtin, K. Foley, K. Sen, C. Morin: Informatica di base 5/ed, Mc Graw Hill Education, ISBN: 9788838667473\n\n\n\n PROGRAMMAZIONE (consigliati, non obbligatori)\n\n Kim N. King: Programmazione in C (seconda edizione), Apogeo, ISBN: 9788850328697\n Deitel Paul J, Deitel Harvey  M: Il linguaggio C. Fondamenti e tecniche di programmazione (8. ed) , Pearson 2016\n I testi indicati sono alternativi tra loro e possono essere sostituiti da altri. Per imparare a programmare da zero si sconsiglia il Brian W Kernighan, Dennis M. Ritchie, Il linguaggio C. Principi di programmazione e manuale di riferimento, seconda edizione, Pearson."
+                ],
+                [
+                    "Esercitazioni",
+                    "Le esercitazioni presentate durante il corso coprono l'intero programma."
+                ],
+                [
+                    "Docente d'Area",
+                    "Amedeo Cesta"
+                ],
+                [
+                    "Docenti video",
+                    "Prof. - Politecnico di Torino (Torino - Italy)Prof. - Politecnico di Torino (Torino - Italy)"
+                ]
+            ],
+            "lessons": [
+                "concetti di base e introduttivi",
+                "architettura degli elaboratori i",
+                "architettura degli elaboratori ii",
+                "codici numerici i",
+                "codici numerici ii",
+                "codifica testi e immagini i",
+                "codifica immagini ii e multimedialità",
+                "l'algebra di boole. gli operatori logici. le unità elementari di memoria (registri)",
+                "l’unità di elaborazione",
+                "la struttura del calcolatore e il software",
+                "trasmissione dati",
+                "internet",
+                "la sicurezza di internet",
+                "i progressi delle tecnologie dell’informazione",
+                "le applicazioni del terzo millennio",
+                "una nuova rivoluzione industriale",
+                "linguaggio c - caratteristiche",
+                "problem solving e diagrammi di flusso",
+                "diagrammi di flusso -  esempi",
+                "istruzioni elementari",
+                "istruzioni condizionali i (if-then-else)",
+                "istruzioni condizionali ii (if-then-else e switch)",
+                "cicli (while)",
+                "cicli (do-while)",
+                "cicli annidati",
+                "istruzione for",
+                "esercizi sull'istruzione for",
+                "vettori",
+                "esercizi sui vettori i",
+                "esercizi sui vettori ii",
+                "funzioni i",
+                "funzioni ii",
+                "puntatori",
+                "matrici",
+                "esercizi sulle matrici",
+                "caratteri",
+                "stringhe",
+                "esercizi sulle stringhe",
+                "file",
+                "esercizi sui file i",
+                "esercizi sui file ii",
+                "tipi aggregati",
+                "esercizi riassuntivi"
+            ]
+        }
+    },
+    {
+        "year": 1,
+        "title": "Inglese tecnico",
+        "req": "livello base (A1 del CEFR)",
+        "points": 3,
+        "filename": "inglese",
+        "style": "bg-gray",
+        "id": 6,
+        "data": {
+            "info": [
+                [
+                    "Descrizione dell'insegnamento",
+                    "L’apprendimento avviene in modo autonomo, tramite la fruizione on line costituita da 15 lezioni, che svolgono un programma che conduce dal livello A1 al livello B1 di conoscenza della lingua. Parte essenziale dell’insegnamento è l’acquisizione di una terminologia tecnica, che completa il bagaglio di apprendimento della lingua, attraverso lo studio di ulteriore materiale predisposto. Le classi interattive, peraltro, in diretta con il docente, ovvero successivamente fruibili in quanto registrate, rappresentano un momento utile come luogo di approfondimento. Per lo studio della morfosintassi della lingua inglese, è indicato un testo di riferimento."
+                ],
+                [
+                    "Prerequisiti",
+                    "Competenza linguistico-comunicativa di livello base (A1 del CEFR)."
+                ],
+                [
+                    "Scopi",
+                    "Il Corso mira a sviluppare le quattro abilità di reading, listening, writing, speaking, relative a contesti d’uso generale della lingua Inglese, e ad acquisire la terminologia essenziale di riferimento dell’inglese tecnico"
+                ],
+                [
+                    "Contenuti",
+                    "Il corso è strutturato in 15 lezioni, che svolgono il programma di studio dal punto di vista morfosintattico, lessicale e terminologico, dal livello A1 al B1. Parallelamente, attraverso classi interattive si partecipa a un momento di scambio e confronto, in cui è possibile rivedere e valutare le proprie acquisizioni. A questo, si aggiungono materiali di supporto quali articoli, bibliografia, sitografia, slide, temi da svolgere, argomenti da sviluppare"
+                ],
+                [
+                    "Testi",
+                    "Sono suddivisi in due parti:\n\n 1. relativamente allo studio morfosintattico della lingua, a scelta fra un testo scritto in lingua inglese:\n\n R. Murphy English Grammar in Use for intermediate students with answers, Cambridge University Press;\n\n                                                                    O, in lingua italiana:\n\n M. Vince, L. Pallini, English Grammar Practice for Italian with key Students, Macmillan & Heinemann.\n\n Testi o manuali peraltro, che svolgono un corso di studio dal livello A1 al B1 sono peraltro adottabili, in funzione di una propria personale scelta\n\n 2. relativamente alla terminologia essenziale dell’inglese tecnico, esso è costituito da un Glossario, inserito come materiale didattico nel Portale, che tratta le nozioni lessicali e terminologiche necessarie, con riferimento agli indirizzi civile, gestionale e informatico"
+                ],
+                [
+                    "Esercitazioni",
+                    "Gli esercizi intendono rappresentare la progressiva evoluzione applicativa dell’apprendimento, e sono costituiti da prove a risposta multipla, test di revisione e test propedeutico alla prova d’esame"
+                ],
+                [
+                    "Docente d'Area",
+                    "Michaela Lucrezia Squiccimarro"
+                ]
+            ],
+            "lessons": [
+                "introduzione alla lingua e regole fondamentali",
+                "la struttura delle quattro forme della frase in inglese",
+                "le due forme del tempo",
+                "passato, passato prossimo e trapassato",
+                "il futuro",
+                "condizionale,imperativo, infinito, gerundio, participio",
+                "pronomi e aggettivi interrogativi e relativi",
+                "i modali",
+                "i modali",
+                "le proposizioni subordinate",
+                "costruzioni speciali",
+                "discorso indiretto",
+                "pronomi e aggettivi indefiniti",
+                "periodo ipotetico",
+                "revisione generale"
+            ]
+        }
+    },
+    {
+        "year": 2,
+        "title": "Complementi di Matematica",
+        "points": 9,
+        "filename": "complementi",
+        "style": "bg-purple",
+        "id": 7,
+        "data": {
+            "info": [
+                [
+                    "Descrizione dell'insegnamento",
+                    "Il corso di Complementi di Matematica è il completamento dei due corsi di carattere analitico-matematico e geometrico-algebrico, svolti nel primo anno del corso di studi. Tale corso amplia la natura degli oggetti studiati nel precedente corsi di Analisi Matematica, passando dai numeri reali ai numeri complessi e quindi alle relative funzioni di una variabile complessa. Inoltre vengono presentate numerose tecniche di carattere integro-differenziale per l’analisi dei problemi che coinvolgono funzioni reali o complesse, quali la teoria delle trasformate di Fourier e di Laplace."
+                ],
+                [
+                    "Prerequisiti",
+                    "La conoscenza degli argomenti del precedenti corsi di Matematica è per ovvii motivi fondamentale."
+                ],
+                [
+                    "Scopi",
+                    "Il corso di Complementi di Matematica sviluppa una completa teoria delle funzioni di una variabile complessa, in modo specifico lo studio dell’olomorfia e  fornisce allo studente tecniche operazionali non elementari per studiare problemi di carattere differenziale connessi a molti degli insegnamenti avanzati presenti nel percorso formativo di un corso di ingegneria."
+                ],
+                [
+                    "Contenuti",
+                    "Il corso di Complementi di Matematica presenta il la teoria delle funzioni di variabile complessa che viene affrontata introducendo dapprima i numeri complessi e le relative funzioni di una variabile complessa per poi investigare tutte le proprietà di queste ultime, quali i concetti di analiticità e olomorfia oltre all’integrazione mediante il teorema dei residui, ciò che generalmente è detta Analisi Complessa. Successivamente il corso si occupa delle tecniche integro-differenziali attraverso gli strumenti della trasformata di Fourier e della relativa antitrasformata e utilizzando i concetti delle funzioni complesse, il corso presenta la trasformata di Laplace e le sue applicazioni."
+                ],
+                [
+                    "Esercitazioni",
+                    "Gli esercizi sono incentrati su ognuno dei macro argomenti del corso, ognuno dei quali di valenza fondamentale. Poiché gli argomenti presenti, oltre a ricoprire una loro autonoma rilevanza, sono fondamentali per poter svolgere le più complesse operazioni in qualsiasi disciplina necessitante del formalismo matematico, sono numerosi e anche di natura applicativa."
+                ],
+                [
+                    "Docente d'Area",
+                    "Clemente Cesarano"
+                ],
+                [
+                    "Docenti video",
+                    "Prof. - Politecnico di Torino (Torino - Italy)"
+                ]
+            ],
+            "lessons": [
+                "numeri complessi",
+                "potenze e radici di numeri complessi",
+                "funzioni elementari dei numeri complessi",
+                "funzioni a valori complessi . funzioni di variabile reale a valori reali o complessi",
+                "analisi armonica",
+                "polinomi di fourier",
+                "polinomio di fourier di un segnale x(t). disuguaglianza di bessel",
+                "serie di fourier",
+                "convergenza puntuale e convergenza uniforme delle serie di fourier",
+                "funzioni di variabile complessa. integrali di linea in campo",
+                "funzioni analitiche. definizione di derivata e di olomorfia. analiticità",
+                "formule integrali di cauchy. esistenza delle derivate di ogni ordine per le funzioni olomorfe",
+                "serie di laurent. prova della formula di eulero",
+                "sviluppo di laurent",
+                "sviluppo di laurent",
+                "singolarità non uniformi e singolarità non isolate. il punto all'infinito",
+                "teorema dei residui",
+                "integrali impropri con il metodo dei residui. lemma di jordan",
+                "lemma di jordan per il calcolo di integrali lungo cammini paralleli all'asse immaginario",
+                "decomposizione in fratti semplici con il metodo dei residui",
+                "decomposizione in fratti multipli con il metodo dei residui",
+                "decomposizione in fratti semplici. poli complessi coniugati",
+                "trasformata di fourier. definizione per funzioni e per distribuzioni. antitrasformata di fourier",
+                "proprietà della trasformata di fourier",
+                "ulteriori proprietà della trasformata di fourier. proprietà di simmetria, convoluzione, prodotto",
+                "trasformata di laplace. definizione di trasformata di laplace bilatera per funzioni e distribuzioni",
+                "proprietà della trasformata di laplace. hermitianeità e convoluzione",
+                "esercizi di trasformate di laplace",
+                "antitrasformata di laplace"
+            ]
+        }
+    },
+    {
+        "year": 2,
+        "title": "Economia e gestione d'impresa",
+        "points": 6,
+        "filename": "economia",
+        "style": "bg-yellow",
+        "id": 8,
+        "data": {
+            "info": [
+                [
+                    "Descrizione dell'insegnamento",
+                    "Questo corso di Economia e Gestione di Impresa fornisce concetti introduttivi sul sistema\n\n economico italiano, il mercato e l’impresa. Quest’ultimo argomento viene successivamente\n\n approfondito considerando le tecniche operative più diffuse di gestione dell’impresa.\n\n Il corso può essere pensato come diviso in due parti. Una prima parte più di base che fornirà\n\n materiale sui concetti fondamentali della macroeconomia e una seconda parte più calata nel sistema\n\n aziendale. Nella prima parte verranno trattati gli indicatori macroeconomici, definiti gli operatori ed\n\n evidenziate le interazioni fra gli stessi al fine di descrive il funzionamento del sistema\n\n macroeconomico in forma semplificata. In seguito si scenderà più in concreto trattando del mercato\n\n e considerando il suo funzionamento, la sua efficienza e le problematiche più comuni che non lo\n\n \n  rendono efficiente. Per quanto concerne gli aspetti relativi all’Impresa, verranno presentati la\n \n  visione dell’impresa da parte degli economisti e gli aspetti che deve essere introdotti all’interno\n \n  della teoria economica per rendere i modelli dell’impresa più inerenti alla realtà."
+                ],
+                [
+                    "Prerequisiti",
+                    "Calcolo ed algebra lineare"
+                ],
+                [
+                    "Scopi",
+                    "Lo scopo di questo corso è quello di istruire lo studente riguardo i concetti fondamentali legati alla macroeconomia. In una prima parte lo studente potrà trovare concetti riguardanti relative al sistema economico italiano, il mercato, e un primo discorso sulle imprese. Il fine è quello di fornire una visione di insieme per descrive il funzionamento del sistema macroeconomico in forma semplificata. Nella seconda parte verranno forniti allo studenti gli strumenti necessari per comprendere i fondamenti della contabilità generale di un’impresa e le strategie di pianificazione a lungo e breve termine."
+                ],
+                [
+                    "Contenuti",
+                    "Il corso può essere pensato come diviso in due parti. Una prima parte più di base che fornirà materiale sui concetti fondamentali della macroeconomia e una seconda parte più calata nel sistema aziendale. Nella prima parte verranno trattati gli indicatori macroeconomici, definiti gli operatori ed evidenziate le interazioni fra gli stessi al fine di descrive il funzionamento del sistema macroeconomico in forma semplificata. In seguito si scenderà più in concreto trattando del mercato e considerando il suo funzionamento, la sua efficienza e le problematiche più comuni che non lo rendono efficiente. Per quanto concerne gli aspetti relativi all’Impresa, verranno presentati la visione dell’impresa da parte degli economisti e gli aspetti che deve essere introdotti all’interno della teoria economica per rendere i modelli dell’impresa più inerenti alla realtà. La prima parte è composta da 7 lezioni sul sistema economico, 3 lezioni sul mercato e 5 lezioni sull’impresa. La seconda parte riguarderà la contabilità generale e il bilancio in cui vi sono tutte le informazioni rilevanti per l’impresa. Verrà in seguito affrontato l’argomento della contabilità industriale, finalizzata alla conoscenza dei costi per la vendita dei prodotti e per formare i prezzi di vendita. Tecniche di programmazione a breve e a lungo termine. Questa parte è costituita da 4 lezioni sulla contabilità, 5 lezioni sul bilancio, 3 lezioni sulla contabilità industriale e 3 lezioni sul controllo dell’impresa."
+                ],
+                [
+                    "Testi",
+                    "Testi consigliati: -- Piercarlo Ravazzi, IL SISTEMA ECONOMICO, Editore Carocci, Roma, 2002. -- Piercarlo Ravazzi, COMPLEMENTI DI ECONOMIA, CLUT. -- Ravazzi, Calderini, Neirotti, Paolucci, Rondi, L'IMPRESA, ed.Il Mulino -- Economics for Engineering, McGraw Hill e Uninettuno University Press"
+                ],
+                [
+                    "Docente d'Area",
+                    "Marta Flamini"
+                ],
+                [
+                    "Docenti video",
+                    "Prof. - Politecnico di Torino (Torino - Italy)"
+                ]
+            ],
+            "lessons": [
+                "sistema economico",
+                "sistema economico",
+                "sistema economico integrazione tra le variabili macroeconomiche",
+                "sistema economico",
+                "sistema economico",
+                "sistema economico",
+                "sistema economico",
+                "il mercato",
+                "il mercato",
+                "il mercato",
+                "l'impresa",
+                "l'impresa tecnologia (seconda parte)",
+                "l'impresa",
+                "l'impresa",
+                "l'impresa",
+                "contabilita' generale e bilancio. il metodo della partita doppia",
+                "contabilita' generale e bilancio. struttura del piano dei conti - i parte",
+                "contabilita' generale e bilancio. struttura del piano dei conti - ii parte",
+                "contabilita' generale e bilancio. principi e schemi del bilancio",
+                "analisi del bilancio. voci dell'attivo patrimoniale",
+                "analisi del bilancio. voci del passivo patrimoniale e del conto economico",
+                "analisi del bilancio. struttura del capitale",
+                "analisi del bilancio. struttura del conto economico e produttivita'",
+                "analisi del bilancio. produttivita' e redditivita'",
+                "contabilita' industriale. classificazione dei costi",
+                "contabilita' industriale. valutazione rimanenze e riparto dei costi indiretti per centri di costo",
+                "contabilita' industriale. riparto dei costi indiretti per attivita' e per margini",
+                "programmazione e controllo. break-even analysis",
+                "programmazione e controllo. budgeting e controllo di gestione",
+                "programmazione a lungo termine. capital budgeting"
+            ]
+        }
+    },
+    {
+        "year": 2,
+        "title": "Elettronica e Misure elettroniche",
+        "points": 9,
+        "filename": "elettronica",
+        "style": "bg-orange",
+        "id": 9,
+        "data": {
+            "info": [
+                [
+                    "Descrizione dell'insegnamento",
+                    "Il corso è diviso in due moduli, il primo riguardante i circuti elettronici ed il secondo la teoria della misura applicata ai sistemi elettrici ed elettronici. \nNel primo modulo di elettronica, di 25 ore, sono forniti gli elementi base dei dispositivi e della tecnologia dei semiconduttori, dei principali circuiti elettronici per applicazioni analogiche (amplificatori), digitali e di conversione A/D e D/A, e dei circuiti di memoria. \nNel secondo modulo di misure elettroniche, riguardante le successive 25 ore, sono descritti i fondamenti della misurazione ed i principi di funzionamento degli strumenti di misura elettronici di base (oscilloscopi, voltmetri, multimetri, analizzatori di spettro, analizzatori di rete)."
+                ],
+                [
+                    "Prerequisiti",
+                    "Elettrotecnica."
+                ],
+                [
+                    "Scopi",
+                    "Fornire allo studente una conoscenza della moderna tecnologia dei semiconduttori e la capacità di analizzare circuiti elettronici analogici e digitali. \nFornire allo studente le informazioni necessarie per progettare correttamente una misurazione, elaborare i dati ottenuti con particolare riferimento alla stima dell’incertezza di misura, comunicare i risultati ottenuti e impiegare correttamente la strumentazione per la misurazione di grandezze elettriche."
+                ],
+                [
+                    "Contenuti",
+                    "Modulo di elettronica:\n• semiconduttori e tecnologia \n• giunzione pn \n• transistori bipolari e MOSFET \n• amplificatori lineari \n• amplificatore operazionale e applicazioni \n• stadi amplificatori a transistori discreti \n• elettronica digitale: inverter e porte logiche \n• circuiti bistabili \n• convertitori A/D e D/A \n• memorie  \n\nModulo di misure elettroniche: \n• guida alla progettazione ed esecuzione di una misurazione \n• organizzazione internazionale della metrologia  \n• stima dell’incertezza di misura secondo le regole dei modelli deterministico e probabilistico \n• caratteristiche metrologiche della strumentazione di misura \n• oscilloscopio analogico e oscilloscopio a memoria digitale \n• voltmetri per grandezze alternate \n• multimetri analogici e digitali \n• metodi di confronto \n• analizzatori di spettro analogici e digitali \n• sistemi automatici di misura \n• analizzatori di rete"
+                ],
+                [
+                    "Testi",
+                    "“Elettronica”, Uninettuno University Press - McGraw-Hill, 2013 (acquistabile tramite il bookstore Uninettuno University Press). \nA. Carullo, U. Pisani, A. Vallan, Fondamenti di misure e strumentazione elettronica, Clut. \nG. Zingales, Misure elettriche - Metodi e strumenti, Utet libreria, Torino, 1992."
+                ],
+                [
+                    "Esercitazioni",
+                    "Il modulo di elettronica non prevede esercitazioni. \nIl modulo di misure elettroniche include esercitazioni riguardanti la stima dell’incertezza secondo le regole dei modelli deterministico e probabilistico ed il corretto impiego della strumentazione di base per la misurazione di grandezze elettriche."
+                ],
+                [
+                    "Docente d'Area",
+                    "Cesidio Bianchi"
+                ],
+                [
+                    "Docenti video",
+                    "Prof. - Politecnico di Torino (Torino - Italy)Prof. - Politecnico di Torino (Torino - Italy)Prof. - Università di Napoli \"Federico II\" (Napoli - Italia)"
+                ]
+            ],
+            "lessons": [
+                "introduzione",
+                "i semiconduttori drogati",
+                "il trasporto di carica nei semiconduttori",
+                "la giunzione pn i",
+                "la giunzione pn ii",
+                "il transistore bipolare",
+                "il transistore bipolarecircuiti equivalenti",
+                "il sistema mos",
+                "il transistore mos struttura e funzionamento statico",
+                "il transistore mos circuiti equivalenti",
+                "i circuiti amplificatori",
+                "l'amplificatore operazionale ideale",
+                "l'uso del mosfet come amplificatore",
+                "altri stadi amplificatori a mosfet",
+                "l'uso del transistore bipolare come amplificatore",
+                "altri stadi amplificatori a transistore bipolare",
+                "introduzione all'elettronica digitale l'inverter",
+                "dinamica, dissipazione ed interfacciamento di porte logiche",
+                "le porte logiche in tecnologia mos",
+                "i circuiti bistabili",
+                "i comparatori di soglia",
+                "la conversione ad e da",
+                "esempi di convertitori",
+                "i circuiti di memoria",
+                "le memorie ad accesso casuale",
+                "le ragioni della misura",
+                "progettazione ed esecuzione di una misura",
+                "organizzazione internazionale della metrologia",
+                "incertezza di misura. il modello deterministico",
+                "incertezza di misura. il modello probabilistico i",
+                "incertezza di misura. il modello probabilistico ii",
+                "caratteristiche metrologiche della strumentazione di misura",
+                "l'oscilloscopio analogico i",
+                "l'oscilloscopio analogico ii",
+                "l'oscilloscopio analogico iii",
+                "l'oscilloscopio digitale",
+                "voltmetri per grandezze alternative",
+                "multimetri analogici",
+                "multimetri digitali",
+                "metodi di confronto",
+                "misure nel dominio della frequenza",
+                "analisi spettrale analogica - i parte",
+                "analisi spettrale analogica - ii parte",
+                "analisi spettrale analogica - iii parte",
+                "analisi spettrale numerica (aspetti teorici)",
+                "analisi spettrale numerica (aspetti di misura)",
+                "analisi spettrale numerica (misurazioni con finestre e strumentazione di misura)",
+                "sistemi automatici di misura",
+                "misurazioni sulle reti, contesto di misura",
+                "misurazioni sulle reti, strumenti e metodi",
+                ""
+            ]
+        }
+    },
+    {
+        "year": 2,
+        "title": "Elettrotecnica",
+        "points": 9,
+        "filename": "elettrotecnica",
+        "style": "bg-orange",
+        "id": 10,
+        "data": {
+            "info": [
+                [
+                    "Descrizione dell'insegnamento",
+                    "Si tratta di una classica materia ingegneristica di base, comune a diversi indirizzi dell’ingegneria, e che tratta a livello introduttivo dei circuiti elettrici, con cenni alle principali applicazioni ingegneristiche. Ciò nonostante si prevedono riferimenti e cenni, in gran parte solo qualitativi e intuitivi, ai principali fenomeni elettromagnetici."
+                ],
+                [
+                    "Prerequisiti",
+                    "Calcolo ed Algebra Lineare, Metodi Matematici per l’Ingegneria, Fisica."
+                ],
+                [
+                    "Scopi",
+                    "Il corso intende principalmente fornire agli allievi le metodologie classiche per l’analisi delle reti elettriche lineari in: a) regime stazionario continuo; b) regime sinusoidale; c) regime dinamico. In aggiunta sono presentate le metodologie per l’analisi delle reti trifasi e per lo studio dei circuiti per mezzo della trasformata di Laplace. La descrizione del modello circuitale con le sue proprietà e la presentazione delle principali metodologie di analisi si propongono obiettivi sia di tipo formativo che informativo."
+                ],
+                [
+                    "Contenuti",
+                    "1. Richiami di elettrologia e grandezze fondamentali Fenomeni elettromagnetici, leggi di Coulomb e Cavendish, modello dei circuiti e grandezze elettriche fondamentali, il Sistema Internazionale (S.I.). Carica elettrica, tensione elettrica e differenza di potenziale, moto delle cariche e corrente elettrica, modello di Drude, legge di Ohm.\n2. Bipoli e circuiti elementari Concetto di bipolo, caratteristica e sua rappresentazione grafica , bipolo resistore, convenzioni sui riferimenti di tensione e corrente. Potenza dissipata nel resistore, legge di Joule. I bipoli corto circuito e circuito aperto. Resistori in serie e parallelo, equivalenza, partitori di tensione e di corrente. Generatori ideali di tensione e di corrente, classificazione dei bipoli.\n3. Proprietà principali dei circuiti Circuiti di bipoli e leggi di Kirchhoff, grafo di un circuito, albero e coalbero, equazioni di interconnessione per le tensioni e per le correnti. Metodi dei potenziali di nodo e delle correnti di maglia. Teorema di Tellegen, teorema di non amplificazione. Sovrapposizione degli effetti. Teorema di reciprocità, caratterizzazione esterna dei circuiti e teoremi di Thevenin-Norton.\n4. Metodi sistematici per l’analisi dei circuiti Metodi sistematici per la soluzione dei circuiti, matrice di incidenza, forma matriciale delle equazioni di Kirchhoff, teoremi di sostituzione, forma generale della caratteristica di un lato, matrice delle conduttanze di lato, matrice delle conduttanze ai nodi.\n5. Elementi circuitali a più terminali Elementi circuitali a più terminali, N-polo passivo, matrice delle conduttanze e sue proprietà, trasformazione stella-poligono, sintesi di un N-polo a poligono completo. N-bipoli o n-porte, matrice delle conduttanze e delle resistenze, sintesi a T ed a Pi-greco, potenza assorbita da un doppio bipolo, rappresentazione ibrida dei doppi bipoli, matrice di trasmissione. Generatori pilotati, amplificatore operazionale, nullatore e noratore e circuiti equivalenti.\n6. Dinamica dei circuiti lineari Circuiti in condizioni dinamiche, bipoli dinamici, condensatore ed induttore, energia immagazzinata, elementi dinamici in serie e parallelo; estensioni delle leggi di Kirchhoff al caso dinamico. Circuiti del primo ordine, circuiti del secondo ordine, oscillazioni; evoluzione forzata con generatori costanti e variabili.\n7. Circuiti lineari in regime sinusoidale Circuiti in regime sinusoidale, metodo simbolico, vettori rotanti e diagrammi fasoriali; circuito risonante RLC. Strumenti di misura in regime sinusoidale (CA), rifasamento. Mutuo accoppiamento e trasformatore, circuiti equivalenti.\n8. Sistemi trifasi Introduzione ai sistemi trifasi. Sistemi trifasi equilibrati e squilibrati. La potenza nei sistemi trifasi.\n9. Complementi di elettrotecnica Soluzione numerica dei circuiti: il codice SPICE. Circuiti con generatori impulsivi. Metodo del bilanciamento degli impulsi. Soluzione dei circuiti per mezzo della trasformata di Laplace."
+                ],
+                [
+                    "Testi",
+                    "Il principale sussidio didattico è costituito dalle video lezioni, e dal testo di riferimento L. De Menna, Elettrotecnica, ed. Pironti, Napoli, 1998, disponibile in formato elettronico sul sito UNINETTUNO. In associazione alle video-lezioni sono disponibili (sempre sul sito) esercizi ed appunti. Ulteriori testi consigliati per approfondimenti sono:\n\nTeoria [1] M. de Magistris, G. Miano, Circuiti, ed SPRINGER, ISBN: 978-88-470-0537-2, 2007.\n[2] S. Falco, L. Verolino, Elementi di Elettrotecnica, ed Liguori, 2003.\n[3] L. Verolino, Introduzione agli Impianti Elettrici, ed Liguori, 2001.\n[4] I.D. Mayergoyz, W. Lawson, Elementi di Teoria dei Circuiti, Utet, 2000.\n[5] L.O. Chua, C.A. Desoer, E.S. Kuh, Circuiti Lineari e Non Lineari, Jackson, 1991.\n\nEsercizi [1] S. Bobbio, L. De Menna, G. Miano, L. Verolino,\nQuaderno n° 1: Circuiti in regime stazionario, ed. CUEN, Napoli, 1998.\nQuaderno n° 2: Circuiti in regime sinusoidale, ed. CUEN, Napoli, 1998.\nQuaderno n° 3: Circuiti in evoluzione dinamica: analisi nel dominio del tempo, ed. CUEN, Napoli, 1998.\n[2] S. Bobbio, Esercizi di Elettrotecnica, ed. CUEN, Napoli, 1995."
+                ],
+                [
+                    "Esercitazioni",
+                    "Le esercitazioni consistono nell’analisi di circuiti lineari di tipo resistivo, dinamico ed in regime sinusoidale. Per superare l’esame è prerequisito fondamentale saper risolvere autonomamente esercizi dello stesso genere di quelli proposti nel corso e nelle erogazioni."
+                ],
+                [
+                    "Docente d'Area",
+                    "Dario Assante"
+                ],
+                [
+                    "Docenti video",
+                    "Prof. - Università di Napoli \"Federico II\" (Napoli - Italia)"
+                ]
+            ],
+            "lessons": [
+                "introduzione al corso; la tensione",
+                "la corrente, la legge di ohm ed il bipolo resistore",
+                "la legge di joule; il multimetro virtuale",
+                "serie e parallelo; bipolo equivalente",
+                "i generatori; classificazione dei bipoli",
+                "le leggi di kirchhoff",
+                "equazioni delle incognite tensioni e correnti",
+                "metodi dei potenziali ai nodi e delle correnti alle maglie",
+                "teorema di tellegen ed altri teoremi",
+                "caratterizzazione esterna delle reti",
+                "metodi sistematici per la risoluzione delle reti",
+                "equazioni risolventi in termini matriciali",
+                "i bipoli nella realtà",
+                "n-poli",
+                "analisi e sintesi del n-polo",
+                "introduzione degli n-bipoli o n-porte",
+                "altre rappresentazioni dei doppi bipoli",
+                "generatori pilotati e amplificatori operazionali",
+                "bipoli in regime dinamico",
+                "circuiti del primo ordine",
+                "circuiti del secondo ordine",
+                "le oscillazioni nei circuiti del secondo ordine",
+                "i bipoli attivi in regime dinamico",
+                "introduzione al metodo simbolico",
+                "vettori rotanti",
+                "diagrammi fasoriali; il circuito rlc al variare dei parametri",
+                "il circuito rlc come filtro",
+                "strumenti di misura in c.a.",
+                "il rifasamento; l'accoppiamento mutuo",
+                "circuiti equivalenti dell'accoppiamento mutuo",
+                "circuiti equivalenti dei componenti; il trasformatore",
+                "sistemi trifasi simmetrici ed equilibrati",
+                "sistemi trifasi squilibrati; misura della potenza nei sistemi trifasi",
+                "dinamica dei circuiti di ordine superiore",
+                "introduzione a spice",
+                "ancora su spice",
+                "i segnali impulsivi",
+                "il bilanciamento degli impulsi",
+                "la trasformata di laplace",
+                "ancora sulla trasformata di laplace"
+            ]
+        }
+    },
+    {
+        "year": 2,
+        "title": "Ingegneria del software e programmazione ad oggetti",
+        "points": 9,
+        "filename": "ingegneria",
+        "style": "bg-blue",
+        "id": 11,
+        "data": {
+            "info": [
+                [
+                    "Descrizione dell'insegnamento",
+                    "Il corso si articola in due moduli:\n\n  \n\n Programmazione ad Oggetti: illustra i fondamenti della programmazione ad oggetti e le principali caratteristiche del linguaggio Java (Il linguaggio Java, Classi astratte, interfacce, visibilità e package, Introduzione a UML, Classi java fondamentali: input/output, eccezioni, Java Collection Framework, Alcune librerie standard: Applet, GUI, JDBC)\n\n  \n\n Ingegneria del Software: illustra i principi, le tecniche, e le pratiche di un processo di sviluppo di software (Il processo di sviluppo del software, Il ciclo di vita del software, Qualità del software, Versionamento e configurazioni, Analisi e specifica dei requisiti, Progettazione: Design Pattern, Verifica e Validazione del software: test, ispezioni)."
+                ],
+                [
+                    "Prerequisiti",
+                    "Conoscenza dei principi della programmazione e di uno o più linguaggi di programmazione. Esperienza pratica di sviluppo di semplici programmi e conoscenza di semplici ambienti di supporto allo sviluppo di software. Conoscenze informatiche di base."
+                ],
+                [
+                    "Scopi",
+                    "Introdurre i fondamenti della programmazione orientata agli oggetti ed il linguaggio di programmazione Java. Illustrare le principali problematiche e metodologie del processo di sviluppo condiviso del software."
+                ],
+                [
+                    "Contenuti",
+                    "Il linguaggio Java\n \n  Classi astratte, interfacce, visibilità e package\n \n  Introduzione a UML\n \n  Classi java fondamentali: input/output, eccezioni\n \n  Java Collection Framework\n \n  Alcune librerie standard: Applet, GUI, JDBC\n \n  Il processo di sviluppo del software\n \n  Il ciclo di vita del software\n \n  Qualità del software\n \n  Versionamento e configurazioni\n \n  Analisi e specifica dei requisiti\n \n  Progettazione: Design Pattern\n \n  Verifica e Validazione del software: test, ispezioni"
+                ],
+                [
+                    "Testi",
+                    "Concetti di informatica e fondamenti di Java. Cay Horstmann. Quinta ed., 2010, Apogeo Editore.\n \n  Design Patterns: elementi per il riuso di software a oggetti. Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides. Prima ed. italiana, 2002, Pearson Education Italia.\n \n  Fundamentals of Software Engineering. Carlo Ghezzi, Mehdi Jazayeri, Dino Mandrioli. Second Edition, 2002, Paerson Education.\n \n  Software Testing and Analysis: Process, Principles, and Techniques. Mauro Pezzè and Michal Young, 2008, John Wiley & Sons."
+                ],
+                [
+                    "Esercitazioni",
+                    "Le esercitazioni seguiranno gli argomenti delle videolezioni e prevedono la risoluzione di esercizi di scrittura o completamento di piccoli progetti di programmazione java, eventualmente facenti utilizzo di Design Pattern."
+                ],
+                [
+                    "Docente d'Area",
+                    "Patrizia Grifoni"
+                ],
+                [
+                    "Docenti video",
+                    "Prof. - Politecnico di Torino (Torino - Italy)Prof. - Università \"La Sapienza\" di Roma (Roma - Italia)Prof. - Università di Milano (Milano - Italy)"
+                ]
+            ],
+            "lessons": [
+                "introduzione al corso",
+                "gli strumenti di java",
+                "programmazione ad oggetti. scheda introduttiva",
+                "oggetti, classi e messaggi",
+                "ereditarietà e suo uso",
+                "introduzione a uml",
+                "un piccolo progetto software",
+                "usare gli oggetti",
+                "oggetti in profondità",
+                "oggetti in profondità (ii parte)",
+                "ereditarietà",
+                "eccezioni",
+                "classi java fondamentali",
+                "input/output",
+                "collezioni di dati",
+                "gestione del testo",
+                "interfacce grafiche. scheda introduttiva",
+                "contenitori e contenuto",
+                "rispondere agli eventi",
+                "gestire la disposizione",
+                "applet",
+                "integrazione con le basi di dati. scheda introduttiva",
+                "sql e java",
+                "accedere alle tabelle",
+                "il ruolo del driver",
+                "le transazioni",
+                "il processo di sviluppo del software",
+                "versioni e configurazioni",
+                "strumenti per controllo versioni",
+                "analisi e specifica dei requisiti",
+                "diagrammi di flusso dei dati",
+                "specifiche a stati finiti",
+                "i design pattern",
+                "alcuni pattern elementari",
+                "pattern creazionali",
+                "pattern strutturali i",
+                "pattern strutturali ii",
+                "pattern comportamentali i",
+                "pattern comportamentali ii",
+                "controllo qualità",
+                "processo di test",
+                "test funzionale",
+                "test combinatorio",
+                "test basato su modelli",
+                "test strutturale",
+                "ispezione"
+            ]
+        }
+    },
+    {
+        "year": 2,
+        "title": "Probabilità e statistica",
+        "points": 6,
+        "filename": "probabilita",
+        "style": "bg-gray",
+        "id": 12,
+        "data": {
+            "info": [
+                [
+                    "Descrizione dell'insegnamento",
+                    "Il corso di Probabilità e Statistica è un insegnamento fondamentale nel percorso formativo di un corso di laurea afferente alla Facoltà di Ingegneria, in particolar modo per un corso di Ingegneria Gestionale. Tale corso fornisce strumenti di base del calcolo probailistico e le nozioni fondamentali della Statistica, utili a comprendere qualunque altro insegnamento di carattere scientifico o prettamente tecnologico, quanto a dotare lo studente di una metodologia logico-deduttiva determinante per un corretto approccio nella risoluzione di problemi di più ampia natura."
+                ],
+                [
+                    "Prerequisiti",
+                    "Considerata la natura autonoma di un corso di Probabilità e Statistica di primo livello, ci si aspetta dallo studente l’aver seguito e superato almeno il corso di Calcolo e Algebra Lineare ."
+                ],
+                [
+                    "Scopi",
+                    "Il corso di Probabilità e Statistica per la Facoltà di Ingegneria ha come obiettivo principale, quello di condurre lo studente ad acquisire, partendo dalle proprietà elementari dei concetti della probabilità, la necessaria competenza nel calcolo statistico."
+                ],
+                [
+                    "Contenuti",
+                    "Il concetto di Probabilità, Il Teorema di Bayes, Indipendenza stocastica, Distribuzioni discrete e continue, Affidabilità e campionamenmto statistico"
+                ],
+                [
+                    "Testi",
+                    "R.Scozzafava, Incertezza e Probabilità, L. Daboni, Calcolo delle probabilità ed elementi di statistica, G.R. Grimmett, D.Welsh, Probability: An Introduction, S.M. Ross, Calcolo delle probabilità"
+                ],
+                [
+                    "Esercitazioni",
+                    "Gli esercizi proposti copiano i macro argomenti su cui è strutturato il presente corso. Tuttavia sono stati inseriti alcuni approfondimenti per meglio comprendere alcuni argomenti poco intuitivi."
+                ],
+                [
+                    "Docente d'Area",
+                    "Domenico Finco"
+                ],
+                [
+                    "Docenti video",
+                    "Prof. - Università \"La Sapienza\" di Roma (Roma - Italia)Prof. - Istituto per i beni archeologici e monumentali  CNR Lecce – UNINETTUNO (Roma - Italia)"
+                ]
+            ],
+            "lessons": [
+                "primi passi",
+                "le diverse concezioni della probabilità",
+                "gli eventi come \"proposizioni\"",
+                "assegnazioni coerenti di probabilità",
+                "numeri aleatori e previsione",
+                "varianza e covarianza",
+                "probabilità condizionata",
+                "aggiornamento delle probabilità - teorema di bayes",
+                "indipendenza stocastica di eventi",
+                "estrazioni da urne",
+                "distribuzioni binominiale e ipergeometrica",
+                "distribuzioni discrete",
+                "probabilità nulle",
+                "numeri aleatori continui",
+                "distribuzioni continue",
+                "la distribuzione normale",
+                "teoria dell'affidabilità",
+                "vettori aleatori",
+                "regressione",
+                "il campionamento statistico",
+                "funzioni di variabile aleatoria discreta",
+                "funzioni di variabile aleatoria continua",
+                "funzioni scalari di vettore aleatorio discreto",
+                "funzioni scalari di vettore aleatorio continuo",
+                "disuguaglianze fra variabili aleatorie discrete",
+                "disuguaglianze fra variabili aleatorie continue",
+                "variabili gaussiane multidimensionali",
+                "introduzione ai processi aleatori",
+                "processi di markov"
+            ]
+        }
+    },
+    {
+        "year": 2,
+        "title": "Sistemi Informativi e basi di dati",
+        "points": 9,
+        "filename": "sistemi_inf",
+        "style": "bg-green",
+        "id": 13,
+        "data": {
+            "info": [
+                [
+                    "Descrizione dell'insegnamento",
+                    "Il corso presenta i seguenti argomenti principali:\n\n- le caratteristiche fondamentali delle tecnologie informatiche necessarie per sviluppare la capacità competitiva dell’impresa. Viene illustrata l’architettura generale dei sistemi di supporto operativo e  direzionale. Inoltre vengono descritte le metodologie di conduzione dei progetti informatici, le fasi di pianificazione strategica e operativa di tecnologie e applicazioni, e la valutazione del loro impatto economico\n\n- le caratteristiche fondamentali delle basi di dati relazionali. Vengono illustrati il modello relazionale ed i relativi linguaggi di interrogazione (algebra relazionale e SQL) con riferimento sia alle definizioni formali che ai sistemi esistenti. Viene inoltre illustrato il processo di progettazione concettuale e logica delle basi di dati relazionali"
+                ],
+                [
+                    "Prerequisiti",
+                    "Fondamenti di informatica"
+                ],
+                [
+                    "Scopi",
+                    "Il corso ha i seguenti obiettivi:\n\n- descrivere i sistemi per la gestione di basi di dati, considerando sia le metodologie di progettazione di basi di dati, sia lo sviluppo di applicazioni di gestione di basi di dati\n\n- introdurre gli aspetti metodologici e tecnologici dei sistemi informativi e le architetture per la loro realizzazione. In particolare, il corso non intende coprire tutti i possibili scenari d’uso dei sistemi informativi, ma piuttosto cerca di dare allo studente gli strumenti per comprendere gli scenari d’uso tipici di tali sistemi, le soluzioni tecnologiche e metodologiche che ne sono alla base e i benefici che si possono ottenere usando tali sistemi"
+                ],
+                [
+                    "Contenuti",
+                    "Il corso prevede la trattazione dei seguenti argomenti:\n\nArchitettura funzionale dei sistemi informativi e struttura dell’impresa\n\nSistema informativo e sistema informatico: definizioni e richiami teorici\n\nTipi di sistemi informativi: sistemi di supporto operativo, sistema informativo direzionale e\ngestionale e sistemi inter-organizzativi\n\nPianificazione dei sistemi informativi e studio di fattibilità\n\nSistemi di gestione di workflow\n\nReingegnerizzazione dei processi\n\nMetodi di valutazione dei costi e dei benefici degli investimenti in tecnologie dell’informazione\n\nSistemi di gestione ERP\n\nCaratteristiche di un sistema per la gestione di basi di dati\n\nCaratteristiche del modello relazionale dei dati\n\nAlgebra relazionale\n\nIl linguaggio SQL\n\nCenni sui sistemi per la gestione delle transazioni\n\nModello concettuale dei dati: modello Entità-Relazione\n\nProgettazione concettuale di una base di dati\n\nProgettazione logica relazionale di una base di dati\n\nCenni di teoria della normalizzazione"
+                ],
+                [
+                    "Testi",
+                    "Atzeni, S. Ceri, S. Paraboschi, R. Torlone. “Basi di dati: modelli e linguaggi di interrogazione”. Terza Edizione, McGraw Hill, Italia, 2009.\n\nC. Batini, B. Pernici, G. Cantucci. “Sistemi Informativi Volume I: Organizzazione e  reingegnerizzazione”. Franco Angeli editore, 2001.\n\nC. Batini, B. Pernici, G. Cantucci. “Sistemi Informativi Volume III: Costi e benefici”.  Franco Angeli editore, 2001.\n\nC. Batini, B. Pernici, G. Cantucci. “Sistemi Informativi \nVolume V: Sistemi distribuiti”. Franco Angeli editore, 2001."
+                ],
+                [
+                    "Esercitazioni",
+                    "Le esercitazioni seguiranno gli argomenti delle videolezioni e prevedono la risoluzione di esercizi (espressioni algebriche, interrogazioni in linguaggio SQL ed in algebra progettuale, progettazione concettuale e/o logica di basi di dati)"
+                ],
+                [
+                    "Docente d'Area",
+                    "Fernando Ferri"
+                ],
+                [
+                    "Docenti video",
+                    "Prof. - Università Roma Tre (Roma - Italy)Prof. - Università Roma Tre (Roma - Italy)Prof. - Politecnico di Milano (Milano - Italy)Prof. - Politecnico di Milano (Milano - Italy)Prof. - Esperto Pianificazione dei Sistemi Prof. - Esperto Pianificazione dei Sistemi Prof. - Politecnico di Torino (Torino - Italy)"
+                ]
+            ],
+            "lessons": [
+                "sistemi informativi. introduzione",
+                "tipologie sistemi informativi",
+                "introduzione alla pianificazione",
+                "pianificazione sistemi informativi (i parte)",
+                "pianificazione sistemi informativi (ii parte)",
+                "pianificazione sistemi informativi (iii parte)",
+                "lo studio di fattibilità",
+                "pianificazione dei sistemi informativi. un caso di studio",
+                "sistemi di gestione di workflow (i parte)",
+                "sistemi di gestione di workflow (ii parte)",
+                "sistemi di gestione di workflow (iii parte)",
+                "wide workflow model (i parte)",
+                "wide workflow model (ii parte)",
+                "wide workflow model (iii parte)",
+                "reingegnerizzazione dei processi",
+                "i costi dei sistemi informativi (i parte)",
+                "i costi dei sistemi informativi (ii parte)",
+                "i costi dei sistemi informativi (iii parte)",
+                "i costi dei sistemi informativi (iv parte)",
+                "architetture (i parte)",
+                "architetture (ii parte)",
+                "architetture (iii parte)",
+                "architetture (iv parte)",
+                "sistemi erp (i parte)",
+                "sistemi erp (ii parte)",
+                "basi di dati",
+                "sistemi di basi di dati",
+                "modelli e linguaggi per basi di dati",
+                "il modello relazionale",
+                "vincoli di integrità (i parte)",
+                "vincoli di integrità (ii parte)",
+                "algebra relazionale (i parte)",
+                "algebra relazionale (ii parte)",
+                "algebra relazionale (iii parte)",
+                "sql (i parte)",
+                "sql (ii parte)",
+                "sql (iii parte)",
+                "sql (iv parte)",
+                "sql (v parte)",
+                "progettazione di basi di dati. metodologie e modelli",
+                "il modello entità-relazione. i costruttori di base",
+                "il modello entità-relazione. gli altri costruttori",
+                "progettazione concettuale (i parte)",
+                "progettazione concettuale (ii parte)",
+                "la progettazione logica (i parte)",
+                "la progettazione logica (ii parte)",
+                "la progettazione logica (iii parte)",
+                "la normalizzazione (i parte)",
+                "la normalizzazione (ii parte)",
+                "la progettazione di basi di dati. un esempio completo"
+            ]
+        }
+    },
+    {
+        "year": 3,
+        "title": "Architettura dei calcolatori e progettazione di sistemi digitali",
+        "points": 9,
+        "filename": "architettura",
+        "style": "bg-orange",
+        "id": 14,
+        "data": {
+            "info": [
+                [
+                    "Descrizione dell'insegnamento",
+                    "Il corso di Architettura dei calcolatori elettronici e progettazione dei si- stemi digitali permette di comprendere il funzionamento di base di varie tipologie di calcolatori elettronici e dei sottosistemi che lo compongono. Inoltre fornisce allo studente le nozioni fondamentali sulle metodologie di progetto dei circuiti digitali con particolare attenzione alla sintesi di circuiti combinatori e sequenziali."
+                ],
+                [
+                    "Prerequisiti",
+                    "Sono considerati propedeutici gli insegnamenti di Informatica, Calcolo e algebra lienare, Elettronica e misure elettroniche.."
+                ],
+                [
+                    "Scopi",
+                    "Il Corso ha l’obiettivo di fornire una panoramica sulle architetture dei si- stemi di elaborazione e sulle metodologie di progettazione. Al termine del corso lo studente avrà acquisito competenze approfondite concernenti il funzionamento di un calcolatore, la sua architettura e la gestione della memoria. Nel contempo, avrà acquisito le metodologie per il progetto di circuiti logici di diversa natura e complessità."
+                ],
+                [
+                    "Contenuti",
+                    "Il corso prevede una prima parte in cui vengono trattate le principali metodologie di progettazione di circuiti digitali di tipo combinatorio e sequenziale a diversi livelli di astrazione dopo una descrizione generale del ciclo di vita di un sistema e dello spazio di progetto. Nella seconda parte verrà invece studiato il funzionamento di base di un calcolatore e la sua architettura. In particolare il corso si può suddividere in 5 argomenti principali: introduzione alla progettazione di circuiti digitali, algebra boolea- na e introduzione ai circuiti logici, progettazione di circuiti combinatori, progettazione di circuiti sequenziali, architettura dei calcolatori elettronici."
+                ],
+                [
+                    "Testi",
+                    "M. Morris Mano, Michael D. Ciletti: “Digital Design”, 5th edition, Pearson - Prentice Hall, 2013. C. Hamacher, Z. Vranesik, S. Zaky, N. Manjikian: Computer organization and embedded systems, Mc Graw Hill, 2012. C. Hamacher, Z. Vranesik, S. Zaky, N. Manjikian: Introduzione all’architettura dei calcolatori, Mc Graw Hill, 2013."
+                ],
+                [
+                    "Esercitazioni",
+                    "Gli esercizi dono basati su 4 macro-aree e consistono principalmente nella sintesi di circuuiti combinatori e sequenziali."
+                ],
+                [
+                    "Docente d'Area",
+                    "Romeo Beccherelli"
+                ],
+                [
+                    "Docenti video",
+                    "Prof. - Istituto per la Microelettronica e Microsistemi (CNR-IMM)  Università Telematica Internazionale Uninettuno (Roma - Italia)"
+                ]
+            ],
+            "lessons": [
+                "hardware digitale",
+                "numeri binari 1/2",
+                "numeri binari 2/2",
+                "algebra booleana",
+                "porte logiche e funzioni booleane 1/2",
+                "porte logiche e funzioni booleane 2/2",
+                "semplificazione di funzioni booleane e mappe di karnaugh",
+                "minimizzazione a livello di porte logiche",
+                "circuiti combinatori 1/3",
+                "circuiti combinatori 2/3",
+                "circuiti combinatori 3/3",
+                "circuti sequenziali sincroni 1/3",
+                "circuti sequenziali sincroni 2/3",
+                "circuti sequenziali sincroni 3/3",
+                "circuti sequenziali sincroni",
+                "memorie",
+                "dispositivi logico-programmabili",
+                "progetto al livello di trasferimento fra registri rtl",
+                "progetto al livello di trasferimento fra registri rtl - esempi 1/2",
+                "progetto al livello di trasferimento fra registri rtl - esempi 2/2",
+                "struttura di un calcolatore 1/2",
+                "struttura di un calcolatore 2/2",
+                "repertorio istruzioni - instruction set architecture (isa) 1/5",
+                "repertorio istruzioni - instruction set architecture (isa) 2/5",
+                "repertorio istruzioni - instruction set architecture (isa) 3/5",
+                "repertorio istruzioni - instruction set architecture (isa) 4/5",
+                "repertorio istruzioni - instruction set architecture (isa) 5/5",
+                "operazioni di ingresso/uscita 1/2",
+                "operazioni di ingresso/uscita 2/2",
+                "software 1/2",
+                "software 2/2",
+                "struttura di base di un processore 1/3",
+                "struttura di base di un processore 2/3",
+                "struttura di base di un processore 3/3",
+                "introduzione al pipeline 1/2",
+                "introduzione al pipeline 2/2",
+                "sistema di ingresso e uscita 1/2",
+                "sistema di ingresso e uscita 2/2",
+                "sistema di memoria 1/2",
+                "sistema di memoria 2/2"
+            ]
+        }
+    },
+    {
+        "year": 3,
+        "title": "Comunicazioni elettriche",
+        "points": 9,
+        "filename": "comunicazioni",
+        "style": "bg-yellow",
+        "id": 15,
+        "data": {
+            "info": [
+                [
+                    "Descrizione dell'insegnamento",
+                    "Il corso si propone di trattare gli elementi di base delle telecomunicazioni. A partire dalla teoria dei\n\n segnali, saranno trattati i principali concetti di teoria delle telecomunicazioni. In particolare\n\n verranno studiate le tecniche di trasmissione e di ricezione su vari tipi di canale: cavi elettrici, canali\n\n radio e fibre ottiche."
+                ],
+                [
+                    "Prerequisiti",
+                    "Algebra lineare ed elementi di Probabilità e Statistica."
+                ],
+                [
+                    "Scopi",
+                    "Fornire un visione sistemistica preliminare dei vari elementi di un sistema di trasmissione."
+                ],
+                [
+                    "Contenuti",
+                    "Introduzione alla teoria dei segnali: Segnali determinati, cenni sulla trasformata di Fourier, analisi spettrale, definizione di banda di un segnale, funzione di trasferimento e definizione di banda di un sistema, filtri. Teorema del campionamento. Segnali aleatori, caratterizzazione statistica e cenni sullo spettro di potenza. Trasmissioni analogiche: Sorgenti analogiche, modulazioni analogiche (AM, FM). Trasmissioni digitali: Sorgenti numeriche, quantizzazione, PCM e conversione A/D e D/A. Modulazioni numeriche (ASK, PSK, FSK, QAM)."
+                ],
+                [
+                    "Testi",
+                    "Per la parte di Teoria dei Segnali:\n\n \n  \n   \n    M. Luise, G. M. Vitetta, \"Teoria dei segnali\", 2009, McGraw-Hill Education.\n  \n \n\n\n \n Per la parte di Trasmissioni:\n Di Benedetto Maria-Gabriella, “Comunicazioni Elettriche – Fondamenti”, 2007, Pearson Prentice Hall.\n\n Di Benedetto Maria-Gabriella, “Comunicazioni Elettriche – Approfondimenti”, 2007, Pearson Prentice Hall.\n Di Benedetto Maria-Gabriella, “Comunicazioni Elettriche – Esercizi e temi d'esame”, 2007, Pearson Prentice Hall.Per la parte di Teoria dei Segnali:Per la parte di Teoria dei Segnali:M. Luise, G. M. Vitetta, \"Teoria dei segnali\", 2009, McGraw-Hill Education.M. Luise, G. M. Vitetta, \"Teoria dei segnali\", 2009, McGraw-Hill Education.Per la parte di Trasmissioni:\n Di Benedetto Maria-Gabriella, “Comunicazioni Elettriche – Fondamenti”, 2007, Pearson Prentice Hall.Per la parte di Trasmissioni:\n Di Benedetto Maria-Gabriella, “Comunicazioni Elettriche – Fondamenti”, 2007, Pearson Prentice Hall.Di Benedetto Maria-Gabriella, “Comunicazioni Elettriche – Approfondimenti”, 2007, Pearson Prentice Hall.Di Benedetto Maria-Gabriella, “Comunicazioni Elettriche – Esercizi e temi d'esame”, 2007, Pearson Prentice Hall.Di Benedetto Maria-Gabriella, “Comunicazioni Elettriche – Esercizi e temi d'esame”, 2007, Pearson Prentice Hall."
+                ],
+                [
+                    "Esercitazioni",
+                    "Esercizi e Questionari sui principali argomenti del corso.\nL’esame prevede una prova finale composta da una parte di esercizi e da una parte teorica (discussione/questionario su uno o più argomenti del corso)."
+                ],
+                [
+                    "Docente d'Area",
+                    "Romeo Beccherelli"
+                ],
+                [
+                    "Docenti video",
+                    "Prof. - Politecnico di Torino (Torino - Italy)Prof. - Università \"La Sapienza\" di Roma (Roma - Italia)"
+                ]
+            ],
+            "lessons": [
+                "cosa sono i segnali",
+                "segnali e sistemi lineari",
+                "transito dei segnali nei sistemi lp",
+                "il calcolo della convoluzione",
+                "lo sviluppo in serie di fourier",
+                "serie di fourier bilatera",
+                "la trasformata di fourier",
+                "proprietà della trasformata di fourier",
+                "proprietà della trasformata di fourier (seconda parte)",
+                "proprietà della trasformata di fourier (terza parte)",
+                "alcune trasformate particolari",
+                "il teorema di parseval",
+                "ancora sulla convoluzione",
+                "applicazioni della trasformata di fourier",
+                "la banda di un segnale",
+                "correlazione",
+                "la funzione di trasferimento",
+                "analisi armonica generalizzata",
+                "il campionamento",
+                "il campionamento (parte seconda)",
+                "i segnali modulati",
+                "modulazione angolare",
+                "esercitazione sulla trasformata di fourier",
+                "esercitazione sulla convoluzione e sulla correlazione",
+                "sorgenti di informazione di tipo numerico",
+                "sorgenti di informazione di tipo analogico (i)",
+                "sorgenti di informazione di tipo analogico (ii)",
+                "trasmissione di segnali analogici per via numerica (i)",
+                "trasmissione di segnali analogici per via numerica (ii)",
+                "trasmissione di segnali analogici per via numerica (iii)",
+                "il rumore degli apparati (i)",
+                "il rumore degli apparati (ii)",
+                "il rumore degli apparati (iii)",
+                "",
+                "trasmissione di segnali analogici - cenni (i)",
+                "trasmissione di segnali analogici - cenni (ii)",
+                "applicazioni delle modulazioni analogiche (i)",
+                "applicazioni delle modulazioni analogiche (ii)",
+                "trasmissione di simboli isolati (i)",
+                "trasmissione di simboli isolati (ii)",
+                "trasmissione di simboli isolati (iii)",
+                "trasmissione di sequenze di simboli in banda base (i)",
+                "trasmissione di sequenze di simboli in banda base (ii)",
+                "trasmissione di sequenze di simboli con modulazione (i)",
+                "trasmissione di sequenze di simboli con modulazione (ii)",
+                "codifica di canale  - cenni",
+                "trasmissioni numeriche esempi di applicazioni (i)",
+                "trasmissioni numeriche esempi di applicazioni (ii)",
+                "trasmissioni numeriche esempi di applicazioni (iii)",
+                "trasmissioni numeriche esempi di applicazioni (iv)"
+            ]
+        }
+    },
+    {
+        "year": 3,
+        "title": "Reti di calcolatori",
+        "points": 9,
+        "filename": "reti",
+        "style": "bg-blue",
+        "id": 16,
+        "data": {
+            "info": [
+                [
+                    "Descrizione dell'insegnamento",
+                    "Il corso intende prima fornire una panoramica sui sistemi di comunicazione in generale ed una conoscenza di base delle reti di calcolatori (architetture, protocolli ed applicazioni) per poi approfondire temi avanzati sulla progettazione e sulla gestione delle reti di calcolatori e dei relativi servizi. Il corso fa particolare riferimento  alle reti locali e geografiche e alla loro interconnessione."
+                ],
+                [
+                    "Prerequisiti",
+                    "Conoscenze di informatica di base, programmazione in linguaggio C."
+                ],
+                [
+                    "Scopi",
+                    "Dopo aver superato l’esame si ritiene che lo studente sia in grado di:\nComprendere ed usare le terminologie ed i metodi relativi agli argomenti trattati;\nAnalizzare un progetto di una rete locale o geografica; \nDefinire le specifiche di progetto di una rete locale o geografica;\nProgettare configurazioni di rete  avanzate ed applicazioni software."
+                ],
+                [
+                    "Contenuti",
+                    "I temi principali trattati durante il corso sono:\nServizi offerti ed architetture dalle reti di calcolatori, \nIl livello fisico, \nIl cablaggio strutturato nelle reti di calcolatori,\nIl livello data-link,\nIl livello network,\nIl livello trasporto,\nIl livello applicativo, \nCasi di studio,\nLa progettazione delle reti,\nIl routing nelle reti IP,\nIl collegamento agli Internet Service Provider (ISP) e problematiche di sicurezza,\nAnalisi dei protocolli applicativi,\nMultimedialità in rete,\nTecnologie per le reti future."
+                ],
+                [
+                    "Testi",
+                    "A.S. Tannenbaum: Fondamenti di reti di calcolatori, Pearson Italia, 2013, ISBN 9788871929491\n\nAltri testi consigliati:\nA. S. Tanenbaum, \"Reti di calcolatori\", Pearson\nJ. F. Kurose, K. W. Ross, \"Internet e Reti di calcolatori\", McGraw-Hill\nM. Baldi, P. Nicoletti, \"Internetworking\", McGraw-Hill\nT. Tofoni, \"MPLS\", Hoepli"
+                ],
+                [
+                    "Esercitazioni",
+                    "Le esercitazioni hanno come scopo primario la comprensione dei concetti fondamentali sviluppati durante l’intero corso. Lo svolgimento delle esercitazioni rientra nelle attività di valutazione in itinere e feedback individuale."
+                ],
+                [
+                    "Docente d'Area",
+                    "Claudio Fornaro"
+                ],
+                [
+                    "Docenti video",
+                    "Prof. - Politecnico di Torino (Torino - Italy)"
+                ]
+            ],
+            "lessons": [
+                "introduzione alle reti di calcolatori",
+                "architettura protocollare iso/osi",
+                "livello fisico",
+                "controllo dell’errore",
+                "ethernet e le reti ieee 802.3. medium access control",
+                "reti ethernet e ieee 802.3. - logical link control layer, physical layer, dimensionamento della rete",
+                "interconnessione di lan tramite bridge trasparenti. espandere la rete oltre il dominio di collisione",
+                "il protocollo spanning tree",
+                "l’evoluzione di ethernet/ieee 802.3. fast ethernet",
+                "evoluzione di ethernet/ieee 802.3. gigabit speeds",
+                "reti wireless - ieee 802.11",
+                "internet e internet protocol versione 4 (ipv4)",
+                "indirizzi ip",
+                "routing dei pacchetti ip",
+                "arp e icmp",
+                "transport layer (il livello trasporto)",
+                "tcp (transport control protocol). maggiori dettagli",
+                "domain name system (dns)",
+                "protocolli di livello applicativo e posta elettronica",
+                "world wide web",
+                "assegnazione degli indirizzi e indirizzi privati",
+                "configurazione delle stazioni",
+                "algoritmi di routing",
+                "architettura e protocolli di routing in internet",
+                "protocolli di routing e servizi di consegna “speciali”",
+                "sicurezza delle informazioni",
+                "sicurezza di rete",
+                "ip versione 6 (ipv6) - prima parte",
+                "ip versione 6 (ipv6) - seconda parte",
+                "mobilità nelle reti ip"
+            ]
+        }
+    },
+    {
+        "year": 3,
+        "title": "Sistemi operativi",
+        "points": 9,
+        "filename": "sistemi_op",
+        "style": "bg-green",
+        "id": 17,
+        "data": {
+            "info": [
+                [
+                    "Descrizione dell'insegnamento",
+                    "Il corso di Sistemi Operativi intende impartire conoscenze di base sui moderni sistemi operativi, parte essenziale dell'elaboratore elettronico. In particolare il corso descrive di un sistema operativo: l'architettura, le funzionalità principali, i processi, i thread, i gestori dei dispositivi, il file system."
+                ],
+                [
+                    "Prerequisiti",
+                    "Informatica di base e programmazione, preferibile Architettura dei calcolatori e progetto di circuiti digitali"
+                ],
+                [
+                    "Scopi",
+                    "Impartire conoscenze di base sui moderni sistemi operativi, parte essenziale dell'elaboratore elettronico. In particolare il corso descrive di un sistema operativo: l'architettura, le funzionalità principali, i processi, i thread, i gestori dei dispositivi, il file system."
+                ],
+                [
+                    "Contenuti",
+                    "Introduzione (funzioni, evoluzione e classificazione) \nGestione dei processi (process model, synchronization mechanisms, deadlock, implementazione in Java) \nMemory Management (concetti basilari e tecniche) \nI/O Subsystem (scopo, architetture e device drivers) \nFile System (concetti di base e problemi implementativi)"
+                ],
+                [
+                    "Testi",
+                    "P. Ancilotti, M. Boari, A. Ciampolini, G. Lipari, Sistemi Operativi, McGraw-Hill, 2004\nA. Silberschatz, P. B. Galvin, G. Gagne, Operating System Concepts, Wiley, 8th edition (July 28, 2008), ISBN-10: 0470128720, ISBN-13: 978-0470128725 \nA. S. Tanenbaum, Modern Operating Systems (3rd Edition), Prentice Hall; 3rd edition (December 21, 2007), ISBN-10: 0136006639, ISBN-13: 978-0136006633 \nW. Stallings, Operating Systems: Internals and Design Principles, Prentice Hall, 6th edition, ISBN-10: 0136006329, ISBN-13:  9780136006329"
+                ],
+                [
+                    "Esercitazioni",
+                    "Le esercitazioni seguono gli argomenti delle lezioni."
+                ],
+                [
+                    "Docente d'Area",
+                    "Claudio Fornaro"
+                ],
+                [
+                    "Docenti video",
+                    "Prof. - Università di Bologna (Bologna - Italy)Prof. - Scuola Superiore Sant' Anna (Pisa - Italy)"
+                ]
+            ],
+            "lessons": [
+                "concetti introduttivi - (prima parte)",
+                "concetti introduttivi - (seconda parte)",
+                "concetti introduttivi - (terza parte)",
+                "concetti introduttivi - (quarta parte)",
+                "proprietà dei processi - (prima parte)",
+                "proprietà dei processi - (seconda parte)",
+                "proprietà dei processi - (terza parte)",
+                "proprietà dei processi - (quarta parte)",
+                "proprietà dei processi - (quinta parte)",
+                "proprietà dei processi - (sesta parte)",
+                "processi nel s.o. unix",
+                "interazioni fra processi in unix i",
+                "interazioni fra processi in unix ii",
+                "threads nel s.o. linux",
+                "sincronizzazione in java",
+                "gestione della memoria. introduzione",
+                "gestione della memoria. parametri caratterizzanti",
+                "gestione della memoria. tecnica delle partizioni",
+                "gestione della memoria. segmentazione",
+                "gestione della memoria. paginazione (prima parte)",
+                "gestione della memoria. paginazione (seconda parte)",
+                "gestione della memoria. conclusioni",
+                "gestione della memoria. casi di studio",
+                "gestione dei dispositivi d'ingresso/uscita. introduzione",
+                "gestione dei dispositivi d'ingresso/uscita. device drive",
+                "gestione dei dispositivi d'ingresso/uscita. conclusioni",
+                "file system. introduzione",
+                "file system. organizzazione",
+                "file system. unix (prima parte)",
+                "file system. unix (seconda parte)"
+            ]
+        }
+    },
+    {
+        "year": 3,
+        "title": "Teoria dei sistemi e controlli automatici",
+        "points": 9,
+        "filename": "teoria",
+        "style": "bg-purple",
+        "id": 18,
+        "data": {
+            "info": [
+                [
+                    "Descrizione dell'insegnamento",
+                    "Il corso fornisce le conoscenze di base della Teoria dei Sistemi e dei Controlli Automatici. Gli\n\n argomenti trattati nel corso sono: Sistemi dinamici orientati, variabili di stato. Caratteristiche dei\n\n modelli matematici. Trasformata di Laplace e Funzioni di Trasferimento. Analisi nel dominio del\n\n tempo e della frequenza. Stabilità: concetti. Modelli di alcuni sistemi industriali. Criterio di stabilità\n\n di Routh. Rappresentazione della risposta armonica. Criterio di stabilità di Nyquist. Specifiche nel\n\n dominio della frequenza e del tempo. Errori a regime. Progetto nel dominio della frequenza di reti\n\n correttrici."
+                ],
+                [
+                    "Prerequisiti",
+                    "Calcolo e Algebra lineare, Fisica, Metodi matematici per l'ingegneria."
+                ],
+                [
+                    "Scopi",
+                    "Saper descrivere in modo formale il comportamento dinamico di sistemi complessi, ottenuti per interconnessione di parti note. Valutare le caratteristiche principali di tali comportamenti e progettare dispositivi per il loro controllo che consentano il raggiungimento delle specifiche desiderate."
+                ],
+                [
+                    "Contenuti",
+                    "Sistemi dinamici orientati, variabili di stato. Caratteristiche dei modelli matematici. Trasformata di Laplace e Funzioni di Trasferimento. Analisi nel dominio del tempo e della frequenza. Stabilità: concetti. Modelli di alcuni sistemi industriali. Criterio di stabilità di Routh. Rappresentazione della risposta armonica. Criterio di stabilità di Nyquist. Specifiche nel dominio della frequenza e del tempo. Errori a regime. Progetto nel dominio della frequenza di reti correttrici."
+                ],
+                [
+                    "Testi",
+                    "A. Isidori – Sistemi di controllo Vol.1-2 Ed. Siderea"
+                ],
+                [
+                    "Esercitazioni",
+                    "Gli esercizi consentono allo studente di: valutare il grado di preparazione acquisito, stimolare una riflessione per ulteriori approfondimenti."
+                ],
+                [
+                    "Docente d'Area",
+                    "Elisabetta Punta"
+                ],
+                [
+                    "Docenti video",
+                    "Prof. - Università \"La Sapienza\" di Roma (Roma - Italia)Prof. - Università \"La Sapienza\" di Roma (Roma - Italia)"
+                ]
+            ],
+            "lessons": [
+                "definizione di sistema",
+                "i sistemi allo studio",
+                "rappresentazioni approssimate",
+                "analisi nel tempo delle rappresentazioni lineari",
+                "la matrice di transizione",
+                "i modi naturali nei sistemi a tempo continuo",
+                "la trasformata di laplace nello studio dei sistemi a tempo continuo",
+                "il regime permanente e il comportamento in frequenza",
+                "analisi nel dominio complesso dei sistemi a tempo continuo",
+                "le rappresentazioni grafiche della risposta armonica",
+                "la \"trasformata zeta\" nello studio dei sistemi a tempo discreto",
+                "la stabilità",
+                "la stabilità interna dei sistemi lineari",
+                "i sistemi interconnessi",
+                "esempi di schemi di controllo (i parte)",
+                "esempi di schemi di controllo (ii parte)",
+                "esempi di schemi di controllo (iii parte)",
+                "esempi di schemi di controllo (iv parte)",
+                "esempi di schemi di controllo (v parte)",
+                "introduzione all'analisi dei sistemi a retroazione",
+                "stabilità di sistemi a retroazione (i parte)",
+                "stabilità di sistemi a retroazione (ii parte)",
+                "stabilità di sistemi a retroazione (iii parte)",
+                "analisi della precisione (i parte)",
+                "analisi della precisione (ii parte)",
+                "analisi della precisione (iii parte)",
+                "analisi della risposta transitoria (iparte)",
+                "analisi della risposta transitoria (iiparte)",
+                "funzioni di sensibilità",
+                "introduzione alla sintesi per tentativi",
+                "scelta della funzione anticipatrice",
+                "scelta della funzione attenuatrice",
+                "regolatori p.i.d."
+            ]
+        }
+    },
+    {
+        "year": "3x",
+        "title": "Tirocinio",
+        "points": 3,
+        "filename": "-",
+        "style": "bg-gray",
+        "id": 19,
+        "data": {}
+    },
+    {
+        "year": "3x",
+        "title": "Ulteriori conoscenze",
+        "points": 3,
+        "filename": "-",
+        "style": "bg-gray",
+        "id": 20,
+        "data": {}
+    },
+    {
+        "year": "3x",
+        "title": "Prova",
+        "points": 3,
+        "filename": "-",
+        "style": "bg-gray",
+        "id": 21,
+        "data": {}
+    }
+]

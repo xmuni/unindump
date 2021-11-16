@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unindump</title>
+
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+
+    <main>
+
+        {% for year in [1,2,3] %}
+
+            <div class="row">
+            
+                <h2>#{{ year }}</h2>
+
+                {% if year == 1 %}
+                <ul class="top-links">
+                    {% set books = ['OS elementaryalgebra','OS prealgebra','OS precalculus','OS calculus v1','OS calculus v2','OS calculus v3'] %}
+                    {% for book in books %}
+                        <li><a href="/{{ book }}.pdf" class="pdf-link" target="_blank">{{ book }}</a></li>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+
+                <div class="topics">
+                {% for obj in data %}
+                    {% if obj.year == year %}
+
+                    <div class="box {{ obj.style }}">
+
+                        <h3
+                            data-info="{% for row in obj.data.info %}{{ row.join('\n') }}{{ '\n' }}{% endfor %}"
+                            class="tooltip_disabled hover">{{ obj.title | safe }}
+                            <span class="hoverbox">
+                                {% for heading,content in obj.data.info %}
+                                    <h4>{{ heading }}</h4>
+                                    <p>{{ content }}</p>
+                                {% endfor %}
+                            </span>
+                        </h3>
+                        
+                        <div class="points">{{ obj.points }}</div>
+
+                        <p class="req">
+                            <b>Req</b>
+                            {{ obj.req }}
+                        </p>
+                        
+                        <ol>
+                            {% for lesson in obj.data.lessons %}
+                            <li>
+                                {{ lesson | safe }}
+                                {% set key = lesson.toLowerCase() %}
+                                {% if key in pdflinks %}
+                                    <a
+                                        class="pdf-link"
+                                        target="_blank"
+                                        href="/{{ pdflinks[key].pdf }}.pdf#page={{ pdflinks[key].page }}">
+                                        read
+                                    </a>
+                                {% endif %}
+
+                            </li>
+                            {% endfor %}
+                        </ol>
+                        
+                        </div>
+                        
+                    {% endif %}
+                {% endfor %}
+                </div>
+
+            </div>
+        
+        {% endfor %}
+
+        <ul>
+        </ul>
+
+    </main>
+
+    <script src="./main.js"></script>
+</body>
+</html>

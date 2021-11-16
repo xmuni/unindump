@@ -126,7 +126,7 @@ function main() {
     const renderedHtml = renderHtml(template, {
         data: data,
         pdflinks: pdflinks,
-        repo_path: BUILD_MODE ? 'unindump/' : '' // Add 'unindump/' to the pdf paths so the links on github pages work.
+        pdf_folder: BUILD_MODE ? 'unindump/pdf_compressed' : 'pdf_full/' // Add 'unindump/' to the pdf paths so the links on github pages work.
     });
     fs.writeFileSync(path.join(__dirname, OUTPUT_FOLDER, 'index.html'), renderedHtml, 'utf8');
     console.log('Html Render OK');

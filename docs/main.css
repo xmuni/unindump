@@ -1,8 +1,4 @@
-@font-face {
-    font-family: "Consolas";
-    src: url("/fonts/consola.ttf") format("truetype");
-}
-  
+
 
 body {
     display: flex;

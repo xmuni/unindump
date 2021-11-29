@@ -111,13 +111,13 @@ function main() {
     }
 
     const pdflinks = parseXlsx('input/books.xlsx', true);
-    // console.log(pdflinks);
+    // console.log(Object.keys(pdflinks));
     
     for(let obj of data) {
         obj.data = parseUninHtml(obj.filename+'.htm');
     }
 
-    fs.writeFileSync(path.join(__dirname, 'output.json'), JSON.stringify(data,null,4));
+    fs.writeFileSync(path.join(__dirname, OUTPUT_FOLDER, 'output.json'), JSON.stringify(data,null,4));
 
     console.log('Build mode:',BUILD_MODE);
     // console.log('Args:',process.argv);

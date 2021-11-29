@@ -21,9 +21,9 @@
 
                 {% if year == 1 %}
                 <ul class="top-links">
-                    {% set books = ['OS elementaryalgebra','OS prealgebra','OS precalculus','OS calculus v1','OS calculus v2','OS calculus v3'] %}
+                    {% set books = ['os_elementaryalgebra','os_prealgebra','os_precalculus','os_calculus_v1','os_calculus_v2','os_calculus_v3'] %}
                     {% for book in books %}
-                        <li><a href="/{{ pdf_folder }}{{ book }}.pdf" class="pdf-link" target="_blank">{{ book }}</a></li>
+                        <li><a href="/{{ pdf_folder }}/{{ book }}.pdf" class="pdf-link" target="_blank">{{ book }}</a></li>
                     {% endfor %}
                 </ul>
                 {% endif %}

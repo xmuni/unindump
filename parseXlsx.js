@@ -24,10 +24,12 @@ function parseXlsx(path, firstColumnAsKey=false) {
     
     for(let i = 0; i < sheets.length; i++)
     {
-        const temp = XLSX.utils.sheet_to_json(file.Sheets[file.SheetNames[i]])
-        temp.forEach((res) => {
-            data.push(res)
-        })
+        if(!sheets[i].startsWith('_')) {
+            const temp = XLSX.utils.sheet_to_json(file.Sheets[file.SheetNames[i]])
+            temp.forEach((res) => {
+                data.push(res)
+            })
+        }
     }
 
     if(!firstColumnAsKey)
